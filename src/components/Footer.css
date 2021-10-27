@@ -1,0 +1,148 @@
+.f-row {
+    width: 100%;
+    height: 80px;
+    background-color: #f6f6f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-logo {
+    width: 349px;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-logo img {
+    width: 100%;
+}
+
+.info-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 52px auto 0 auto;
+    padding-bottom: 82px;
+}
+
+.info-title {
+    font-family: "NotoSansKR-Medium";
+    font-size: 35px;
+    font-weight: 100;
+}
+
+.info-txt {
+    font-family: "NotoSansKR-Regular";
+    font-size: 16px;
+    color: #474747;
+    line-height: 1.7;
+}
+
+.browsers {
+    display: flex;
+    margin-left: 244px;
+}
+
+.browser {
+    width: 105px;
+    height: 104px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.browser:nth-of-type(1) {
+    background-image: url("../assets/imgs/chrome.png");
+}
+
+.browser:nth-of-type(2) {
+    background-image: url("../assets/imgs/firefox.png");
+}
+
+.browser:nth-of-type(3) {
+    background-image: url("../assets/imgs/safari.png");
+}
+
+.browser:nth-of-type(4) {
+    background-image: url("../assets/imgs/whale.png");
+}
+
+
+/* ipad pro 세로 */
+@media (max-width:1024px) and (orientation: portrait) {
+    .info-box {
+        width: 90%;
+        margin: 52px auto 0 auto;
+        padding-bottom: 82px;
+    }
+    .browsers {
+        margin-left: auto;
+    }
+}
+
+/* ipad 가로 */
+@media (max-width:1024px) and (orientation: landscape) {
+    .info-box {
+        width: 90%;
+        margin: 52px auto 0 auto;
+        padding-bottom: 82px;
+    }
+    .info-title {
+        font-size: 30px;
+    }
+    .info-txt {
+        font-size: 14px;
+    }
+    .browsers {
+        margin-left: auto;
+    }
+    .browser {
+        width: 80px;
+        height: 80px;
+    }
+}
+/* ipad 세로 */
+@media (max-width:768px) and (orientation: portrait) {
+    .browser {
+        width: 60px;
+        height: 60px;
+    }
+    .info-title {
+        font-size: 24px;
+    }
+    .info-txt {
+        font-size: 14px;
+        width: 80%;
+    }
+    .info-box {
+        margin: 24px auto 0 auto;
+        padding-bottom: 52px;
+    }
+}
+@media (max-width:717px) and (orientation: landscape) {
+    .browser {
+        width: 60px;
+        height: 60px;
+    }
+    .info-txt {
+        width: 80%;
+    }
+    .info-box {
+        margin: 24px auto 0 auto;
+        padding-bottom: 52px;
+    }
+}
+
+@media (max-width:500px) {
+    .f-logo {
+        width: 216px;
+    }
+    .f-row {
+        height: 50px;
+        margin-bottom: 63px;
+    }
+    .info-box {
+        display: none;
+    }
+}

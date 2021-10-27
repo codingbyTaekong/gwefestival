@@ -1,0 +1,104 @@
+body::-webkit-scrollbar-thumb{
+    background-color: #dcdfe7;
+    border-radius: 12px;
+    background-clip: padding-box;
+    border: 4px solid transparent;
+}
+body::-webkit-scrollbar {
+    width: 15px;
+}
+
+.mainbanner {
+    width: 100%;
+    min-height: 27vw;
+    background-color: #f2f2f2;
+    background-image: url("../assets/imgs/experience.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title {
+    font-family: "NotoSansKR-Bold";
+    font-size: 40px;
+    margin-top: 56px;
+    margin-bottom: 28px;
+}
+
+.titleUnderBar {
+    width: 192px;
+    height: 1px;
+    background-color: #373737;
+    margin-bottom: 28px;
+}
+
+.gotoGather {
+    font-family: "NotoSansKR-Regular";
+    font-size: 18px;
+    color: #272727;
+    width: 482px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #cbcbcb;
+    transition: all 0.35s;
+    margin-bottom: 44px;
+}
+
+.gotoGather:hover {
+    background-color : #235da8;
+    color: #fff;
+}
+
+.gathertown {
+    width: 80%;
+    max-width: 1280px;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 78px;
+}
+
+.gathertown img {
+    width: 100%;
+}
+
+@media (max-width:1024px) and (orientation: portrait) {
+    .title {
+        font-size: 32px;
+        margin-top: 40px;
+    }
+}
+
+@media (max-width:1024px) and (orientation: landscape) {
+    .title {
+        font-size: 28px;
+    }
+}
+
+@media (max-width:717px) and (orientation: landscape) {
+    .title {
+        font-size: 24px;
+    }
+}
+
+@media (max-width:500px) {
+    .title {
+        font-size: 18px;
+        margin-top: 18px;
+        margin-bottom: 15px;
+    }
+    .titleUnderBar {
+        margin-bottom: 15px;
+    }
+    .gotoGather{
+        width: 80%;
+        max-width: 320px;
+        height: 40px;
+        margin-bottom: 25px;
+    }
+    .gathertown {
+        margin-bottom: 40px;
+    }
+}

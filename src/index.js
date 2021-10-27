@@ -1,13 +1,32 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Header from './components/Header';
+import Home from './components/Home';
+import Vr from './components/Vr';
+import Experience from './components/Experience';
+import Footer from './components/Footer';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Header />
+    <Router>
+      <Header />
+      <Switch>
+        <Route exact path="/">
+          <Home />
+          <Footer />
+        </Route>
+        <Route path="/experience">
+          <Experience />
+          <Footer />
+        </Route>
+        <Route path="/vr/:id">
+          <Vr />
+        </Route>
+      </Switch>
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );

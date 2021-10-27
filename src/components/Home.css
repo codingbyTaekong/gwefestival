@@ -1,0 +1,461 @@
+body::-webkit-scrollbar-thumb{
+    background-color: #dcdfe7;
+    border-radius: 12px;
+    background-clip: padding-box;
+    border: 4px solid transparent;
+}
+body::-webkit-scrollbar {
+    width: 15px;
+}
+
+.homebanner {
+    width: 100%;
+    min-height: 27vw;
+    background-color: #f2f2f2;
+    background-image: url("../assets/imgs/banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainTitle {
+    font-family: "NotoSansKR-Bold";
+    text-align: center;
+    padding-top: 3vw;
+    font-size: 40px;
+}
+
+.mainTitle .color {
+    color: #255eb1;
+}
+
+/* 포스터 */
+
+.posterWrap {
+    font-size: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../assets/imgs/mainBack.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.posterContainer {
+    display: grid;
+    grid-template-columns: 482px 600px;
+    margin: 0 auto;
+    margin-top: 82px;
+    width: 1280px;
+}
+
+.posterContainer .poster {
+    width: 100%;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    grid-column: 1;
+}
+
+.poster .downloadPoster {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #cbcbcb;
+    color: #272727;
+    font-family: "NotoSansKR-Regular";
+    font-size: 18px;
+    background-color: #fff;
+    margin-top: 24px;
+    cursor: pointer;
+    transition: all 0.35s;
+    text-decoration: none;
+}
+
+.poster .downloadPoster:hover {
+    background-color: #235da8;
+    color: #fff;
+}
+
+.posterContainer .poster img {
+    width: 100%;
+}
+
+.posterContainer .poster_sub {
+    margin-left: 72px
+}
+
+.poster_sub h3 {
+    font-family: "NotoSansKR-Bold";
+    color: #515151;
+    font-size: 25px;
+}
+
+.poster_sub h2 {
+    font-family: "NotoSansKR-Bold";
+    color: #255eb1;
+    font-size: 40px;
+}
+
+.poster_sub p {
+    width: 100%;
+    font-family: "NotoSansKR-Regular";
+    color: #515151;
+    font-size: 18px;
+    line-height: 2.3;
+    margin-top: 23px;
+}
+
+.festivalInfo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 62px;
+}
+
+.info_row {
+    display: flex;
+    align-items: center;
+}
+
+.info_row:not(:last-of-type) {
+    margin-bottom: 22px;
+}
+
+.info_row .impact {
+    width: 120px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: "NotoSansKR-Bold";
+    background-image: linear-gradient(112deg, #1e45af -1%, #2879c2 105%);
+    border-radius: 9px;
+    font-size: 16px;
+}
+
+.info_row .txt {
+    margin-left: 19px;
+    font-family: "NotoSansKR-Regular";
+    color: #515151;
+    font-size: 16px;
+}
+.host {
+    margin-left: 19px;
+    width: 229px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.host img {
+    width: 100%;
+}
+
+/* 주요내용 */
+
+
+
+.ContentsWrap h3 {
+    margin-top: 113px;
+    font-family: "NotoSansKR-Bold";
+    font-size: 25px;
+    color: #373737;
+}
+
+.ContentsWrap .underline {
+    display: block;
+    margin-top: 8px;
+    width: 192px;
+    height: 1px;
+    background-color: #373737;
+}
+
+.contentsTable {
+    display: grid;
+    width: 1280px;
+    grid-template-columns: 238px 1042px;
+    grid-template-rows: repeat(8);
+    border-bottom: 3px solid #235da8;
+    border-top: 3px solid #235da8;
+    margin-top: 44px;
+}
+
+.contentsTable .tt {
+    grid-column: 1;
+    width: 100%;
+    height: initial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "NotoSansKR-Bold";
+    color: #515151;
+    font-size: 18px;
+    border-right: 1px solid #707070;
+}
+
+.contentsTable .tt:not(:last-of-type) {
+    border-bottom: 1px solid #707070;
+}
+
+.contentsTable .td:not(:last-of-type) {
+    border-bottom: 1px solid #707070;
+}
+
+.contentsTable .td {
+    grid-column: 2;
+    padding: 8px 0;
+    padding-left: 25px;
+    font-family: "NotoSansKR-Regular";
+    color: #515151;
+    font-size: 18px;
+}
+
+.contentsTable .td.events {
+    line-height: 2;
+}
+
+.ContentsWrap:last-of-type {
+    margin-bottom: 117px;
+}
+
+
+
+/* ipad pro 세로 */
+@media (max-width:1024px) and (orientation: portrait) {
+    .mainTitle {
+        font-size: 32px;
+    }
+    .posterContainer {
+        width: fit-content;
+        grid-template-columns: 420px 540px;
+        margin-top: 42px;
+    }
+    .posterContainer .poster_sub {
+        margin-left: 40px;
+    }
+    .poster_sub h3 {
+        font-size: 20px;
+    }
+    .poster_sub h2 {
+        font-size: 30px;
+    }
+    .poster_sub p {
+        font-size: 15px;
+    }
+    .ContentsWrap {
+        width: 90%;
+    }
+    .ContentsWrap h3 {
+        margin-top: 56px;
+    }
+    .contentsTable {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 34px;
+        grid-template-columns: 238px;
+    }
+    .contentsTable .tt {
+        font-size: 18px;
+    }
+    .contentsTable .td {
+        font-size: 14px;
+    }
+}
+
+/* ipad 가로 */
+@media (max-width:1024px) and (orientation: landscape) {
+    .posterContainer {
+        width: unset;
+        grid-template-columns: 400px 520px;
+        margin-top: 42px
+    }
+    .mainTitle {
+        font-size: 28px;
+    }
+    .poster_sub h3 {
+        font-size: 20px;
+    }
+    .poster_sub h2 {
+        font-size: 26px;
+    }
+    .poster_sub p {
+        font-size: 16px;
+        line-height: 1.8;
+    }
+    .ContentsWrap {
+        width: 90%;
+    }
+    .contentsTable {
+        width: 100%;
+        grid-template-columns: 238px;
+    }
+    .ContentsWrap h3 {
+        margin-top: 56px;
+        font-size: 20px;
+    }
+    .contentsTable .tt {
+        font-size: 16px;
+    }
+    .contentsTable .td {
+        font-size: 14px;
+    }
+    .ContentsWrap:last-of-type {
+        margin-bottom: 62px;
+    }
+}
+
+/* ipad 세로 */
+@media (max-width:768px) and (orientation: portrait) {
+    .posterContainer {
+        grid-template-columns: 300px 400px;
+    }
+    .poster_sub p {
+        font-size: 14px;
+        line-height: 1.6;
+        margin-top: 15px;
+    }
+    .festivalInfo {
+        margin-top: 20px;
+    }
+    .info_row .impact {
+        width: 80px;
+        height: 30px;
+        font-size: 14px;
+    }
+    .info_row:not(:last-of-type) {
+        margin-bottom: 15px;
+    }
+    .info_row .txt {
+        font-size: 14px;
+    }
+    .poster .downloadPoster {
+        font-size: 16px;
+    }
+    .ContentsWrap:last-of-type {
+        margin-bottom: 62px;
+    }
+}
+
+@media (max-width:717px) and (orientation: landscape) {
+    .mainTitle {
+        font-size: 24px;
+    }
+    .posterContainer {
+        width: 100%;
+        grid-template-columns: 600px;
+        align-items: center;
+        justify-content: center;
+    }
+    .posterContainer .poster {
+        width: 420px;
+        margin: 0 auto;
+    }
+    .posterContainer .poster_sub {
+        margin-top: 25px;
+        margin-left: 0;
+    }
+    .poster_sub h3 {
+        text-align: center;
+    }
+    .poster_sub h2 {
+        text-align: center;
+    }
+    .festivalInfo {
+        width: fit-content;
+        margin: 35px auto 0 auto;
+    }
+}
+@media (max-width:550px) {
+    .posterWrap {
+        background-image: url("../assets/imgs/mainBack_m.png");
+    }
+    .mainTitle {
+        font-size: 18px;
+        width: 60%;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+    .posterContainer {
+        width: 100%;
+        grid-template-columns: 90%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 80px;
+    }
+    .posterContainer .poster {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .poster .downloadPoster {
+        margin-top: 8px;
+        font-size: 16px;
+        height: 45px;
+    }
+    .posterContainer .poster_sub {
+        margin-left: 0;
+        margin-top: 21px;
+    }
+    .poster_sub h3 {
+        font-size: 15px;
+        text-align: center;
+    }
+    .poster_sub h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+    .ContentsWrap h3 {
+        font-size: 18px;
+        margin-top: 25px;
+    }
+    .festivalInfo {
+        margin-top: 37px;
+    }
+    .ContentsWrap {
+        width: 90%;
+    }
+    .contentsTable {
+        grid-template-columns: 110px;
+    }
+    .contentsTable .tt {
+        font-size: 12px;
+        letter-spacing: -1px;
+    }
+    .contentsTable .td {
+        font-size: 12px;
+        padding-left: 10px;
+        letter-spacing: -1px;
+    }
+    .ContentsWrap:last-of-type {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width:280px) {
+    .info_row .impact {
+        font-size: 12px;
+        width: 60px;
+    }
+    .host {
+        width: 180px;
+        margin-left: 8px;
+    }
+    .info_row .txt {
+        font-size: 12px;
+        margin-left: 8px;
+        letter-spacing: -1px;
+    }
+}
