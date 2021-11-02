@@ -760,9 +760,9 @@ const Header = () => {
                                     <i className="fas fa-chevron-right custom-arrow"></i>
                                     <div className="gnb_depth3_box">
                                         <ul className="gnb_depth3">
-                                            <Link to="/vr/1">
+                                            {/* <Link to="/vr/11"> */}
                                                 <li>연구회1</li>
-                                            </Link>
+                                            {/* </Link> */}
                                             <li>연구회2</li>
                                             <li>연구회3</li>
                                         </ul>
