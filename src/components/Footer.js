@@ -5,6 +5,15 @@ import Logo from "../assets/imgs/footerLogo.png"
 const Footer = ()=>{
     return (
     <footer>
+        <div className="f-c-row">
+            <h1>행사에 대해 궁금한 점은 이쪽으로 문의하세요!</h1>
+            <div className="f-txtbox">
+                <i className="far fa-envelope"></i>
+                <span className="email">mailing@mail.com</span>
+                <i className="fas fa-phone-alt"></i>
+                <span className="tel">070-1234-1234</span>
+            </div>
+        </div>
         <div className="f-row">
             <div className="f-logo">
                 <img src={Logo}></img>

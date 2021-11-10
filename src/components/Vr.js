@@ -1,5 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
+import "./vr.css"
 
 const Vr = () => {
     function test() {
@@ -12,7 +13,7 @@ const Vr = () => {
     }
     let {id} = useParams();
     return (
-        <iframe style={style} src={"https://pict1.cafe24.com/douzonetest/scene"+id+"_en.html"}></iframe>
+        <iframe style={style} src={"https://pict4.cafe24.com/gwefestival/scene_"+id+"_en.html"}></iframe>
     )
 }
 
