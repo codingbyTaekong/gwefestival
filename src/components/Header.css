@@ -160,7 +160,7 @@ a {
 }
 
 .hd_02 .gnb_depth2.take_depth3[data-idx="2"] .gnb_depth3_box {
-    left: 250%;
+    left: 120%;
 }
 .gnb_depth3_box.opened {
     display: flex;
@@ -218,12 +218,13 @@ a {
 }
 
 .gnb_depth3 {
-    width: 150px;
+    width: 165px;
 }
 .hd_02 .gnb_depth3 li {
     font-size: 18px;
     color: #242424;
     font-family: "NotoSansKR-Light";
+    margin-bottom: 20px;
 }
 
 .custom-arrow {
@@ -340,4 +341,3 @@ a {
         width: 100%;
     }
 }
-

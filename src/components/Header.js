@@ -387,43 +387,43 @@ const Header = () => {
                         [
                             {
                                 title: "구정초등학교",
-                                path: "/",
+                                path: "/vr/68",
                             },
                             {
                                 title: "기린초등학교",
-                                path: "/",
+                                path: "/vr/69",
                             },
                             {
                                 title: "내대초등학교",
-                                path: "/",
+                                path: "/vr/70",
                             },
                             {
                                 title: "대진초등학교",
-                                path: "/",
+                                path: "/vr/71",
                             },
                             {
                                 title: "반곡초등학교",
-                                path: "/",
+                                path: "/vr/72",
                             },
                             {
                                 title: "석천중학교",
-                                path: "/",
+                                path: "/vr/73",
                             },
                             {
                                 title: "양구초등학교",
-                                path: "/",
+                                path: "/vr/74",
                             },
                             {
                                 title: "오저초등학교",
-                                path: "/",
+                                path: "/vr/75",
                             },
                             {
                                 title: "장흥초등학교",
-                                path: "/",
+                                path: "/vr/76",
                             },
                             {
                                 title: "정선중학교",
-                                path: "/",
+                                path: "/vr/77",
                             }
                         ]
                 },
@@ -436,60 +436,64 @@ const Header = () => {
                         [
                             {
                                 title: "김화중학교",
-                                path: "/",
+                                path: "/vr/78",
+                            },
+                            {
+                                title: "노암초등학교",
+                                path: "/vr/79",
                             },
                             {
                                 title: "도촌초등학교",
-                                path: "/",
+                                path: "/vr/80",
                             },
                             {
                                 title: "동송초등학교",
-                                path: "/",
+                                path: "/vr/81",
                             },
                             {
                                 title: "마차초등학교",
-                                path: "/",
+                                path: "/vr/82",
+                            },
+                            {
+                                title: "상평초등학교",
+                                path: "/vr/83",
+                            },
+                            {
+                                title: "여량중학교",
+                                path: "/vr/84",
                             },
                             {
                                 title: "예람중학교",
-                                path: "/",
+                                path: "/vr/85",
                             },
                             {
                                 title: "유봉여자고등학교",
-                                path: "/",
+                                path: "/vr/86",
+                            },
+                            {
+                                title: "유천초등학교",
+                                path: "/vr/87",
+                            },
+                            {
+                                title: "정동초등학교",
+                                path: "/vr/88",
                             },
                             {
                                 title: "증산초등학교",
-                                path: "/",
+                                path: "/vr/89",
                             },
                             {
                                 title: "태장초등학교",
-                                path: "/",
+                                path: "/vr/90",
+                            },
+                            {
+                                title: "한솔초등학교",
+                                path: "/vr/91",
                             },
                             {
                                 title: "황지초등학교",
-                                path: "/",
+                                path: "/vr/92",
                             },
-                            {
-                                title: "고산초등학교",
-                                path: "/",
-                            },
-                            {
-                                title: "남춘천중학교",
-                                path: "/",
-                            },
-                            {
-                                title: "삼생초등학교",
-                                path: "/",
-                            },
-                            {
-                                title: "송포초등학교",
-                                path: "/",
-                            },
-                            {
-                                title: "철암중학교",
-                                path: "/",
-                            }
                         ]
                 },
                 {
@@ -836,12 +840,12 @@ const Header = () => {
                                 <i className="fas fa-chevron-right custom-arrow"></i>
                                 <div className="gnb_depth3_box">
                                     <ul className="gnb_depth3">
-                                    <Link to="/vr/34">
-                                    </Link>
-                                    <Link to="/vr/34">
-                                    </Link>
+                                    <Link to="/vr/65">
                                         <li>치악고등학교</li>
+                                    </Link>
+                                    <Link to="/vr/66">
                                         <li>유봉여고</li>
+                                    </Link>
                                     </ul>
                                 </div>
                             </li>
@@ -855,18 +859,38 @@ const Header = () => {
                                 <i className="fas fa-chevron-right custom-arrow"></i>
                                 <div className="gnb_depth3_box">
                                     <ul className="gnb_depth3">
+                                    <Link to="/vr/68">
                                         <li>구정초등학교</li>
+                                    </Link>
+                                    <Link to="/vr/69">
                                         <li>기린초등학교</li>
+                                    </Link>
+                                    <Link to="/vr/70">
                                         <li>내대초등학교</li>
+                                    </Link>
+                                    <Link to="/vr/71">
                                         <li>대진초등학교</li>
+                                    </Link>
+                                    <Link to="/vr/72">
                                         <li>반곡초등학교</li>
+                                    </Link>
                                     </ul>
                                     <ul className="gnb_depth3">
+                                    <Link to="/vr/73">
                                         <li>석천중학교</li>
+                                    </Link>
+                                    <Link to="/vr/74">
                                         <li>양구초등학교</li>
+                                    </Link>
+                                    <Link to="/vr/75">
                                         <li>오저초등학교</li>
+                                    </Link>
+                                    <Link to="/vr/76">
                                         <li>장흥초등학교</li>
+                                    </Link>
+                                    <Link to="/vr/77">
                                         <li>정선중학교</li>
+                                    </Link>
                                     </ul>
                                 </div>
                             </li>
@@ -875,27 +899,55 @@ const Header = () => {
                                 <i className="fas fa-chevron-right custom-arrow"></i>
                                 <div className="gnb_depth3_box">
                                     <ul className="gnb_depth3">
+                                    <Link to="/vr/78">
                                         <li>김화중학교</li>
+                                    </Link>
+                                    <Link to="/vr/79">
                                         <li>노암초등학교</li>
+                                    </Link>
+                                    <Link to="/vr/80">
                                         <li>도촌초등학교</li>
+                                    </Link>
+                                    <Link to="/vr/81">
                                         <li>동송초등학교</li>
+                                    </Link>
+                                    <Link to="/vr/82">
                                         <li>마차초등학교</li>
-
+                                    </Link>
                                     </ul>
                                     <ul className="gnb_depth3">
+                                    <Link to="/vr/83">
                                         <li>상평초등학교</li>
+                                    </Link>
+                                    <Link to="/vr/84">
                                         <li>여량초등학교</li>
+                                    </Link>
+                                    <Link to="/vr/85">
                                         <li>예람중학교</li>
+                                    </Link>
+                                    <Link to="/vr/86">
                                         <li>유봉여자고등학교</li>
+                                    </Link>
+                                    <Link to="/vr/87">
                                         <li>유천초등학교</li>
-
+                                    </Link>
                                     </ul>
                                     <ul className="gnb_depth3">
+                                    <Link to="/vr/88">
                                         <li>정동초등학교</li>
+                                    </Link>
+                                    <Link to="/vr/89">
                                         <li>증산초등학교</li>
+                                    </Link>
+                                    <Link to="/vr/90">
                                         <li>태장초등학교</li>
+                                    </Link>
+                                    <Link to="/vr/91">
                                         <li>한솔초등학교</li>
+                                    </Link>
+                                    <Link to="/vr/92">
                                         <li>황지초등학교</li>
+                                    </Link>
                                     </ul>
                                 </div>
                             </li>
@@ -904,11 +956,21 @@ const Header = () => {
                                 <i className="fas fa-chevron-right custom-arrow"></i>
                                 <div className="gnb_depth3_box">
                                     <ul className="gnb_depth3">
+                                    <Link to="/vr/93">
                                         <li>고산초등학교</li>
+                                    </Link>
+                                    <Link to="/vr/94">
                                         <li>남춘천중학교</li>
+                                    </Link>
+                                    <Link to="/vr/95">
                                         <li>삼생초등학교</li>
+                                    </Link>
+                                    <Link to="/vr/96">
                                         <li>송포초등학교</li>
+                                    </Link>
+                                    <Link to="/vr/97">
                                         <li>철암중학교</li>
+                                    </Link>
                                     </ul>
                                 </div>
                             </li>

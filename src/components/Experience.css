@@ -24,18 +24,23 @@ body::-webkit-scrollbar {
     margin-bottom: 28px;
 }
 
+
 .titleUnderBar {
     width: 192px;
     height: 1px;
     background-color: #373737;
     margin-bottom: 28px;
 }
+.gotoGatherWrap{
+    display: flex;
+    margin-bottom: 78px;
+}
 
 .gotoGather {
     font-family: "NotoSansKR-Regular";
     font-size: 18px;
     color: #272727;
-    width: 482px;
+    width: 244px;
     height: 50px;
     display: flex;
     align-items: center;
@@ -43,8 +48,8 @@ body::-webkit-scrollbar {
     border: 1px solid #cbcbcb;
     transition: all 0.35s;
     margin-bottom: 44px;
+    margin: 0 7px;
 }
-
 .gotoGather:hover {
     background-color : #235da8;
     color: #fff;
@@ -59,9 +64,72 @@ body::-webkit-scrollbar {
     justify-content: center;
     margin-bottom: 78px;
 }
+.gatherCardWrapOne{
+    width: 99%;
+    display: flex;
+    margin-bottom: 124px;
+}
+.gatherCardWrapOne .slick-slide{
+    width: 399px;
+}
+.gatherCardWrapOne .gatherCard{
+    width: 399px;
+}
+.gatherCard{
+    text-align: center;
+}
+.gatherCardImg{
+    display: inline-block;
+    width: 399px;
+}
+.slick-slider{
+    width: 70%;
+    margin: 0 auto;
+}
+.slick-prev{
+    display: block;
+    width: 50px;
+    height: 50px;
+    color: #000;
+    left: -70px;
+}
+.slick-prev::before{
+    color: #e1e1e1;
+    font-size: 50px;
+}
+.slick-next{
+    display: block;
+    width: 50px;
+    height: 50px;
+    color: #000;
+    right: -70px;
+}
+
+.slick-next::before{
+    color: #e1e1e1;
+    font-size: 50px;
+}
 
 .gathertown img {
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+.gatherCardWrapTwo{
+    width: 99%;
+    display: flex;
+    margin-bottom: 196px;
+}
+.m-title{
+    display: none;
+}
+.mGatherCardWrapOne{
+    display: none;
+}
+.mGatherCardWrapTwo{
+    display: none;
 }
 
 @media (max-width:1024px) and (orientation: portrait) {
@@ -69,11 +137,34 @@ body::-webkit-scrollbar {
         font-size: 32px;
         margin-top: 40px;
     }
+
+    .gotoGather {
+        font-size: 14px;
+        width: 150px;
+        
+    }
+    .gatherCardImg{
+        width: 200px;
+    }
+    .slick-slider{
+        width: 66%;
+    }
 }
 
 @media (max-width:1024px) and (orientation: landscape) {
     .title {
         font-size: 28px;
+    }
+    .gotoGather {
+        font-size: 14px;
+        width: 150px;
+        
+    }
+    .gatherCardImg{
+        width: 200px;
+    }
+    .slick-slider{
+        width: 66%;
     }
 }
 
@@ -81,24 +172,75 @@ body::-webkit-scrollbar {
     .title {
         font-size: 24px;
     }
+
+    .gotoGather {
+        font-size: 12px;
+        width: 120px;  
+    }
+
+    .gatherCardImg{
+        width: 150px;
+    }
+    .slick-slider{
+        width: 70%;
+    }
 }
 
 @media (max-width:500px) {
     .title {
-        font-size: 18px;
-        margin-top: 18px;
-        margin-bottom: 15px;
+        display: none;
     }
     .titleUnderBar {
         margin-bottom: 15px;
     }
+    .gatherCardWrapOne{
+        width: 70%;
+        display: none;
+    }
+    .gatherCardWrapTwo{
+        display: none;
+    }
     .gotoGather{
-        width: 80%;
+        width: 70%;
         max-width: 320px;
-        height: 40px;
-        margin-bottom: 25px;
+        height: 45px;
+        font-size: 10px;
+        margin: 0 auto 5px;
+    }
+    .gotoGatherWrap{
+        flex-direction: column;
+        width: 322px;
+    }
+    .m-title{
+        display: block;
+        font-size: 18px;
+        margin-top: 18px;
+        margin-bottom: 15px;
+    }
+    .open{
+        display: block;
+        font-size: 18px;
+    }
+    .gatherCardImg{
+        width: 200px;
     }
     .gathertown {
         margin-bottom: 40px;
+    }
+    .slick-slider{
+        width: 70%;
+    }
+    .mGatherCardWrapOne{
+        display: block;
+        width: 70%;
+        margin-bottom: 76px;
+    }
+    .mGatherCardWrapTwo{
+        display: block;
+        width: 70%;
+        margin-bottom: 238px;
+    }
+    .gatherCardImg{
+        width: 100%;
     }
 }
