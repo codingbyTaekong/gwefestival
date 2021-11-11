@@ -8,9 +8,9 @@ const Footer = ()=>{
         <div className="f-c-row">
             <h1>행사에 대해 궁금한 점은 이쪽으로 문의하세요!</h1>
             <div className="f-txtbox">
-                <i className="far fa-envelope"></i>
+                <span className="far fa-envelope"></span>
                 <span className="email">junphoto38@korea.kr</span>
-                <i className="fas fa-phone-alt"></i>
+                <span className="fas fa-phone-alt"></span>
                 <span className="tel">033-258-5374</span>
             </div>
         </div>

@@ -19,7 +19,7 @@
     margin-top: 15px;
 }
 
-.f-c-row i {
+.f-c-row .fas, .f-c-row .far {
     font-size: 25px;
 }
 

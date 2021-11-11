@@ -510,7 +510,7 @@ const Header = () => {
                                 path: "http://vr.gwefestival.co.kr/scene_94_en.html",
                             },
                             {
-                                title: "레고위",
+                                title: "레고위두",
                                 path: "http://vr.gwefestival.co.kr/scene_95_en.html",
                             },
                             {
@@ -531,19 +531,6 @@ const Header = () => {
         }
     ]
 
-    const Nav = styled.div`
-        background : #164672;
-        height : 80px;
-    `
-
-    const NavIcon = styled.div`
-        font-size: 30px;
-        position: absolute;
-        top: 25px;
-        right: 25px;
-        color : #515151;
-        cursor : pointer;
-    `
 
     const ExitIcon = styled.div`
         font-size: 30px;
@@ -576,7 +563,9 @@ const Header = () => {
         <header onMouseLeave={onLeaveHeader}>
             <section className="hd_01">
                 <div className="logo">
-                    <img src={logo} alt="logo" />
+                    <Link to="/">
+                        <img src={logo} alt="logo" />
+                    </Link>
                     <div className="navicon">
                         <FaIcons.FaBars onClick={showSidebar} />
                     </div>
@@ -774,7 +763,7 @@ const Header = () => {
                                     <ul className="gnb_depth3">
                                         <li><a href="http://vr.gwefestival.co.kr/scene_93_en.html">드론코딩</a></li>
                                         <li><a href="http://vr.gwefestival.co.kr/scene_94_en.html">갤러그게임</a></li>
-                                        <li><a href="http://vr.gwefestival.co.kr/scene_95_en.html">레고위</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_95_en.html">레고위두</a></li>
                                         <li><a href="http://vr.gwefestival.co.kr/scene_96_en.html">뚜루뚜루코딩봇</a></li>
                                         <li><a href="http://vr.gwefestival.co.kr/scene_97_en.html">마이크로비트 마퀸</a></li>
                                     </ul>

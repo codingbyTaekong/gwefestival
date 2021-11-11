@@ -35,6 +35,7 @@ body::-webkit-scrollbar {
     width: 70%;
     display: flex;
     margin-bottom: 78px;
+    justify-content: center;
 }
 
 .gotoGather {

@@ -263,9 +263,9 @@ const Home = () => {
                                 <h1>이벤트③-개더타운 특별이벤트</h1>
                                 <span>무궁화 꽃이 피었습니다</span>
                             </div>
-                            <a href="https://gather.town/app/8viaqN5z1ypLs6z4/bighall01" className="links">
+                            <Link to="/experience" className="links">
                                 입장하기
-                            </a>
+                            </Link>
                         </div>
                         <div className="item tdc">
                             <div className="table-txt-box">
@@ -273,18 +273,18 @@ const Home = () => {
                                 <h1>이벤트③-개더타운 특별이벤트</h1>
                                 <span>OX퀴즈</span>
                             </div>
-                            <a href="https://gather.town/app/8viaqN5z1ypLs6z4/bighall01" className="links">
+                            <Link to="/experience" className="links">
                                 입장하기
-                            </a>
+                            </Link>
                         </div>
                         <div className="item tdc">
                             <div className="table-txt-box">
                                 <h1>이벤트③-개더타운 특별이벤트</h1>
                                 <span>방탈출게임</span>
                             </div>
-                            <a href="https://gather.town/app/8viaqN5z1ypLs6z4/bighall01" className="links">
+                            <Link to="/experience" className="links">
                                 입장하기
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>

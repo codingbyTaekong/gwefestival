@@ -21,23 +21,31 @@ const settings = {
 
 
 const EventBanner = () => {
-    
+    const popup = useRef()
     let now = new Date;
     let after1m =new Date;
     
     const [cookies, setCookie, removeCookie] = useCookies(['eb']);
-    const [check, setCheck] =useState(false)
+    const [show, setShow] = useState(true);
+    const [check, setCheck] =useState(false);
     const canselevent = (e) => {
         if (check) {
             after1m.setDate(now.getDate()+1);
             setCookie('eb', 'DEF82E0CC0531342B4CBCF35220EE7BE', {path:'/', expires:after1m});
+            setShow(!show);
         } else {
-            document.querySelector('.ba-wrap').remove();
+            setShow(!show);
         }
     }
-    if (!cookies.eb) {
-        return (
-            <>
+    useEffect(()=> {
+        if (cookies.eb) {
+            setShow(!show);
+        }
+    }, [popup])
+    
+    return (
+        <CookiesProvider>
+            <div className={show ? "ba-bback" : "ba-bback closed"} ref={popup}>
                 <div className="ba-wrap">
                     <div className="cansel-ba" onClick={canselevent}>
                         <i className="far fa-times"></i>
@@ -53,19 +61,15 @@ const EventBanner = () => {
                         </Slider>
                     </div>
                     <div className="cb-box">
-                        <label for="agree">
+                        <label htmlFor="agree">
                             <input type="checkbox" name="argee" id="agree" checked={check} onChange={((e)=> {setCheck(!check)})}></input>
                             오늘 하루 보지않기
                         </label>
                     </div>
                 </div>
-            </>
-        )
-    } else {
-        return (
-            <></>
-        )
-    }
+            </div>
+        </CookiesProvider>
+    )
 }
 
 export default EventBanner;
