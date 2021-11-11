@@ -30,6 +30,17 @@
     margin-left: 10px;
     margin-right: 25px;
 }
+
+.googleform a {
+    font-family: "NotoSansKR-Regular";
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.googleform a:hover {
+    text-decoration: underline;
+}
 .f-c-row .tel {
     margin-right: 0;
 }

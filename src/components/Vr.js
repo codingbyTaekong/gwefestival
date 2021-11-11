@@ -3,9 +3,6 @@ import { useParams } from "react-router-dom";
 import "./vr.css"
 
 const Vr = () => {
-    function test() {
-        console.log('testtttt')
-    }
     const style = {
         width : "100%",
         height : "100%",

@@ -773,7 +773,7 @@ const Header = () => {
                     </li>
 
                     <Link to="/experience">
-                        <li onMouseOver={controllUnderBar} className="gnb_depth1">게더타운체험</li>
+                        <li onMouseOver={controllUnderBar} className="gnb_depth1">개더타운체험</li>
                     </Link>
                 </ul>
                 <span className="underBar" ref={underBar} style={style}></span>

@@ -7,16 +7,17 @@ const Footer = ()=>{
     <footer>
         <div className="f-c-row">
             <h1>행사에 대해 궁금한 점은 이쪽으로 문의하세요!</h1>
+            <div className="googleform"><a href="https://forms.gle/kDbcaWter1mZownS9" target="_blank" rel="noopener noreferrer" >구글폼 바로가기</a></div>
             <div className="f-txtbox">
-                <span className="far fa-envelope"></span>
+                <i className="far fa-envelope"></i>
                 <span className="email">junphoto38@korea.kr</span>
-                <span className="fas fa-phone-alt"></span>
+                <i className="fas fa-phone-alt"></i>
                 <span className="tel">033-258-5374</span>
             </div>
         </div>
         <div className="f-row">
             <div className="f-logo">
-                <img src={Logo}></img>
+                <img src={Logo} alt="로고"></img>
             </div>
         </div>
         <div className="info-box">
@@ -29,10 +30,10 @@ const Footer = ()=>{
                 </p>
             </div>
             <div className="browsers">
-                <a href="https://www.google.com/intl/ko/chrome/" target="_blank" className="browser"></a>
-                <a href="https://www.mozilla.org/ko/firefox/new/" target="_blank" className="browser"></a>
-                <a href="https://support.apple.com/ko_KR/downloads/safari" target="_blank" className="browser"></a>
-                <a href="https://whale.naver.com/ko/download/win/" target="_blank" className="browser"></a>
+                <a href="https://www.google.com/intl/ko/chrome/" target="_blank" rel="noopener noreferrer" className="browser"></a>
+                <a href="https://www.mozilla.org/ko/firefox/new/" target="_blank" rel="noopener noreferrer" className="browser"></a>
+                <a href="https://support.apple.com/ko_KR/downloads/safari" target="_blank" rel="noopener noreferrer" className="browser"></a>
+                <a href="https://whale.naver.com/ko/download/win/" target="_blank" rel="noopener noreferrer" className="browser"></a>
             </div>
         </div>
     </footer>

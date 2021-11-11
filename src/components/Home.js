@@ -143,7 +143,7 @@ const Home = () => {
                     <span className="underline"></span>
                     <div className="contentsTable">
                         <span className="tt">개회식</span>
-                        <p className="td">메타버스 게더타운 온라인 개회식</p>
+                        <p className="td">메타버스 개더타운 온라인 개회식</p>
                         <span className="tt">강연영상 전시관</span>
                         <p className="td">
                             정보교육 분야별 특강, 운영사례 강연 영상<br />
@@ -156,8 +156,8 @@ const Home = () => {
                         <p className="td">강원도교육청 지정 공모학교 운영결과 전시 및 홍보</p>
                         <span className="tt">신규교감 워크숍</span>
                         <p className="td">2021 신규 교감 대상 정보교육 워크숍</p>
-                        <span className="tt">메타버스 게더타운 체험</span>
-                        <p className="td">메타버스 게더타운 소개, 회의실체험, 방탈출 게임</p>
+                        <span className="tt">메타버스 개더타운 체험</span>
+                        <p className="td">메타버스 개더타운 소개, 회의실체험, 방탈출 게임</p>
                         <span className="tt">찾아가는 정보교육 체험</span>
                         <p className="td">메타버스 체험, SW·AI교육·디지털문해력교육 체험</p>
                         <span className="tt">체험부스 전시관</span>
@@ -247,14 +247,14 @@ const Home = () => {
                                 이벤트① <br />
                                 체험부스 스탬프 이벤트
                             </h1>
-                            <a href="http://vr.gwefestival.co.kr/" className="links">
-                                입장하기
+                            <a href="https://forms.gle/ccJDmQpSYUpoKvEz9" target="_blank" rel="noopener noreferrer" className="links">
+                                참여하기
                             </a>
                         </div>
                         <div className="item tdc">
                             <h1>이벤트② <br />
                                 축제후기 설문 이벤트</h1>
-                            <a href="" target="_blank" className="links">
+                            <a href="https://forms.gle/ccJDmQpSYUpoKvEz9" target="_blank" rel="noopener noreferrer" className="links">
                                 입장하기
                             </a>
                         </div>
