@@ -39,7 +39,7 @@ a {
 .hd_02 {
     width: 100%;
     height: 90px;
-    background-color: #164672;
+    background-color: #0041a2;
     display: flex;
     color: #fff;
     align-items: center;
@@ -63,6 +63,9 @@ a {
     font-family: "NotoSansKR-Light";
     color: #fff;
     font-size: 18px;
+}
+.hd_02 .gnb > .gnb_depth1>a{
+    color: #fff;
 }
 
 .hd_02 .gnb > a:not(:last-of-type) {
@@ -193,7 +196,7 @@ a {
 .gnb_depth2.take_depth3 > li {
     font-family: "NotoSansKR-Bold";
     font-size: 20px;
-    color: #cecece;
+    color: #3f3f3f;
 }
 
 .gnb_depth2.take_depth3 >li:hover {
@@ -220,11 +223,19 @@ a {
 .gnb_depth3 {
     width: 165px;
 }
+.gnb_depth3 li a{
+    color: #242424;
+}
 .hd_02 .gnb_depth3 li {
     font-size: 18px;
     color: #242424;
-    font-family: "NotoSansKR-Light";
+    font-family: "NotoSansKR-Regular";
     margin-bottom: 20px;
+    transition: all 0.35s;
+}
+
+.hd_02 .gnb_depth3 li:hover a {
+    color: #164672;
 }
 
 .custom-arrow {
@@ -282,7 +293,7 @@ a {
 .SidebarNav {
     background : #164672;
     width: 340px;
-    height: 100vh;
+    height: 102vh;
     overflow : auto;
     position : fixed;
     top: 0;
@@ -341,3 +352,4 @@ a {
         width: 100%;
     }
 }
+

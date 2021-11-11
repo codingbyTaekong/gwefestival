@@ -61,11 +61,11 @@ const Header = () => {
         },
         {
             title: "인사말",
-            path: "/vr/67",
+            path: "http://vr.gwefestival.co.kr/scene_67_en.html",
         },
         {
             title: "강연 영상",
-            path: "/vr/98",
+            path: "http://vr.gwefestival.co.kr/scene_98_en.html",
         },
         {
             title: "성과 발표",
@@ -81,139 +81,139 @@ const Header = () => {
                         [
                             {
                                 title: "구정초등학교",
-                                path: "/vr/1",
+                                path: "http://vr.gwefestival.co.kr/scene_1_en.html",
                             },
                             {
                                 title: "솔올중학교",
-                                path: "/vr/2",
+                                path: "http://vr.gwefestival.co.kr/scene_2_en.html/",
                             },
                             {
                                 title: "대진초등학교",
-                                path: "/vr/3",
+                                path: "http://vr.gwefestival.co.kr/scene_3_en.html/",
                             },
                             {
                                 title: "동해초등학교",
-                                path: "/vr/4",
+                                path: "http://vr.gwefestival.co.kr/scene_4_en.html/",
                             },
                             {
                                 title: "예람중학교",
-                                path: "/vr/5",
+                                path: "http://vr.gwefestival.co.kr/scene_5_en.html/",
                             },
                             {
                                 title: "오저초등학교",
-                                path: "/vr/6",
+                                path: "http://vr.gwefestival.co.kr/scene_6_en.html/",
                             },
                             {
                                 title: "임원중학교",
-                                path: "/vr/7",
+                                path: "http://vr.gwefestival.co.kr/scene_7_en.html/",
                             },
                             {
                                 title: "송포초등학교",
-                                path: "/vr/8",
+                                path: "http://vr.gwefestival.co.kr/scene_8_en.html/",
                             },
                             {
                                 title: "현북중학교",
-                                path: "/vr/9",
+                                path: "http://vr.gwefestival.co.kr/scene_9_en.html/",
                             },
                             {
                                 title: "양구초등학교",
-                                path: "/vr/10",
+                                path: "http://vr.gwefestival.co.kr/scene_10_en.html/",
                             },
                             {
                                 title: "석천중학교",
-                                path: "/vr/11",
+                                path: "http://vr.gwefestival.co.kr/scene_11_en.html/",
                             },
                             {
                                 title: "도촌초등학교",
-                                path: "/vr/12",
+                                path: "http://vr.gwefestival.co.kr/scene_12_en.html/",
                             },
                             {
                                 title: "한전초등학교",
-                                path: "/vr/13",
+                                path: "http://vr.gwefestival.co.kr/scene_13_en.html/",
                             },
                             {
                                 title: "마차초등학교",
-                                path: "/vr/14",
+                                path: "http://vr.gwefestival.co.kr/scene_14_en.html/",
                             },
                             {
                                 title: "영월중학교",
-                                path: "/vr/15",
+                                path: "http://vr.gwefestival.co.kr/scene_15_en.html/",
                             },
                             {
                                 title: "고산초등학교",
-                                path: "/vr/16",
+                                path: "http://vr.gwefestival.co.kr/scene_16_en.html/",
                             },
                             {
                                 title: "육민관중학교",
-                                path: "/vr/17",
+                                path: "http://vr.gwefestival.co.kr/scene_17_en.html/",
                             },
                             {
                                 title: "원주여중",
-                                path: "/vr/18",
+                                path: "http://vr.gwefestival.co.kr/scene_18_en.html/",
                             },
                             {
                                 title: "기린초등학교",
-                                path: "/vr/19",
+                                path: "http://vr.gwefestival.co.kr/scene_19_en.html/",
                             },
                             {
                                 title: "함백초등학교",
-                                path: "/vr/20",
+                                path: "http://vr.gwefestival.co.kr/scene_20_en.html/",
                             },
                             {
                                 title: "정선중학교",
-                                path: "/vr/21",
+                                path: "http://vr.gwefestival.co.kr/scene_21_en.html/",
                             },
                             {
                                 title: "증산초등학교",
-                                path: "/vr/22",
+                                path: "http://vr.gwefestival.co.kr/scene_22_en.html/",
                             },
                             {
                                 title: "장흥초등학교",
-                                path: "/vr/23",
+                                path: "http://vr.gwefestival.co.kr/scene_23_en.html/",
                             },
                             {
                                 title: "김화중학교",
-                                path: "/vr/24",
+                                path: "http://vr.gwefestival.co.kr/scene_24_en.html/",
                             },
                             {
                                 title: "천전초등학교",
-                                path: "/vr/25",
+                                path: "http://vr.gwefestival.co.kr/scene_25_en.html/",
                             },
                             {
                                 title: "남춘천중학교",
-                                path: "/vr/26",
+                                path: "http://vr.gwefestival.co.kr/scene_26_en.html/",
                             },
                             {
                                 title: "황지초등학교",
-                                path: "/vr/27",
+                                path: "http://vr.gwefestival.co.kr/scene_27_en.html/",
                             },
                             {
                                 title: "철암중학교",
-                                path: "/vr/28",
+                                path: "http://vr.gwefestival.co.kr/scene_28_en.html/",
                             },
                             {
                                 title: "삼생초등학교",
-                                path: "/vr/29",
+                                path: "http://vr.gwefestival.co.kr/scene_29_en.html/",
                             },
                             {
                                 title: "내면중학교",
-                                path: "/vr/30",
+                                path: "http://vr.gwefestival.co.kr/scene_30_en.html/",
                             },
                             {
                                 title: "성북초등학교",
-                                path: "/vr/31",
+                                path: "http://vr.gwefestival.co.kr/scene_31_en.html/",
                             },
                             {
                                 title: "횡성중학교",
-                                path: "/vr/32",
+                                path: "http://vr.gwefestival.co.kr/scene_32_en.html/",
                             },
                             {
                                 title: "태장초등학교",
-                                path: "/vr/33",
+                                path: "http://vr.gwefestival.co.kr/scene_33_en.html/",
                             },
                             {
                                 title: "북원중학교",
-                                path: "/vr/34",
+                                path: "http://vr.gwefestival.co.kr/scene_34_en.html/",
                             },
                         ]
                 },
@@ -226,111 +226,111 @@ const Header = () => {
                         [
                             {
                                 title: "구곡초등학교",
-                                path: "/vr/38",
+                                path: "http://vr.gwefestival.co.kr/scene_38_en.html/",
                             },
                             {
                                 title: "귀둔초등학교",
-                                path: "/vr/39",
+                                path: "http://vr.gwefestival.co.kr/scene_39_en.html/",
                             },
                             {
                                 title: "동송초등학교",
-                                path: "/vr/40",
+                                path: "http://vr.gwefestival.co.kr/scene_40_en.html/",
                             },
                             {
                                 title: "무실초등학교",
-                                path: "/vr/41",
+                                path: "http://vr.gwefestival.co.kr/scene_41_en.html/",
                             },
                             {
                                 title: "문혜초등학교",
-                                path: "/vr/42",
+                                path: "http://vr.gwefestival.co.kr/scene_42_en.html/",
                             },
                             {
                                 title: "버들초등학교",
-                                path: "/vr/43",
+                                path: "http://vr.gwefestival.co.kr/scene_43_en.html/",
                             },
                             {
                                 title: "장흥초등학교",
-                                path: "/vr/44",
+                                path: "http://vr.gwefestival.co.kr/scene_44_en.html/",
                             },
                             {
                                 title: "천전초등학교",
-                                path: "/vr/45",
+                                path: "http://vr.gwefestival.co.kr/scene_45_en.html/",
                             },
                             {
                                 title: "춘천교대부설초등학교",
-                                path: "/vr/46",
+                                path: "http://vr.gwefestival.co.kr/scene_46_en.html/",
                             },
                             {
                                 title: "춘천삼육초등학교",
-                                path: "/vr/47",
+                                path: "http://vr.gwefestival.co.kr/scene_47_en.html/",
                             },
                             {
                                 title: "태서초등학교",
-                                path: "/vr/48",
+                                path: "http://vr.gwefestival.co.kr/scene_48_en.html/",
                             },
                             {
                                 title: "평원초등학교",
-                                path: "/vr/49",
+                                path: "http://vr.gwefestival.co.kr/scene_49_en.html/",
                             },
                             {
                                 title: "한솔초등학교",
-                                path: "/vr/50",
+                                path: "http://vr.gwefestival.co.kr/scene_50_en.html/",
                             },
                             {
                                 title: "현북초등학교",
-                                path: "/vr/51",
+                                path: "http://vr.gwefestival.co.kr/scene_51_en.html/",
                             },
                             {
                                 title: "황둔초등학교",
-                                path: "/vr/52",
+                                path: "http://vr.gwefestival.co.kr/scene_52_en.html/",
                             },
                             {
                                 title: "황지초등학교",
-                                path: "/vr/53",
+                                path: "http://vr.gwefestival.co.kr/scene_53_en.html/",
                             },
                             {
                                 title: "남원주중학교",
-                                path: "/vr/54",
+                                path: "http://vr.gwefestival.co.kr/scene_54_en.html/",
                             },
                             {
                                 title: "남춘천중학교",
-                                path: "/vr/55",
+                                path: "http://vr.gwefestival.co.kr/scene_55_en.html/",
                             },
                             {
                                 title: "단구중학교",
-                                path: "/vr/56",
+                                path: "http://vr.gwefestival.co.kr/scene_56_en.html/",
                             },
                             {
                                 title: "속초해랑중학교",
-                                path: "/vr/57",
+                                path: "http://vr.gwefestival.co.kr/scene_57_en.html/",
                             },
                             {
                                 title: "치악중학교",
-                                path: "/vr/58",
+                                path: "http://vr.gwefestival.co.kr/scene_58_en.html/",
                             },
                             {
                                 title: "강릉명륜고등학교",
-                                path: "/vr/59",
+                                path: "http://vr.gwefestival.co.kr/scene_59_en.html/",
                             },
                             {
                                 title: "강원사대부설고등학교",
-                                path: "/vr/60",
+                                path: "http://vr.gwefestival.co.kr/scene_60_en.html/",
                             },
                             {
                                 title: "북원여자고등학교",
-                                path: "/vr/61",
+                                path: "http://vr.gwefestival.co.kr/scene_61_en.html/",
                             },
                             {
                                 title: "원주고등학교",
-                                path: "/vr/62",
+                                path: "http://vr.gwefestival.co.kr/scene_62_en.html/",
                             },
                             {
                                 title: "홍천고등학교",
-                                path: "/vr/63",
+                                path: "http://vr.gwefestival.co.kr/scene_63_en.html/",
                             },
                             {
                                 title: "강릉오성학교",
-                                path: "/vr/64",
+                                path: "http://vr.gwefestival.co.kr/scene_64_en.html/",
                             }
                         ]
                 },
@@ -343,15 +343,15 @@ const Header = () => {
                         [
                             {
                                 title: "반곡초등학교",
-                                path: "/vr/35",
+                                path: "http://vr.gwefestival.co.kr/scene_35_en.html/",
                             },
                             {
                                 title: "평창중학교",
-                                path: "/vr/36",
+                                path: "http://vr.gwefestival.co.kr/scene_36_en.html/",
                             },
                             {
                                 title: "내대초등학교",
-                                path: "/vr/37",
+                                path: "http://vr.gwefestival.co.kr/scene_37_en.html/",
                             },
                         ]
                 },
@@ -364,11 +364,11 @@ const Header = () => {
                         [
                             {
                                 title: "치악고등학교",
-                                path: "/vr/65",
+                                path: "http://vr.gwefestival.co.kr/scene_65_en.html/",
                             },
                             {
                                 title: "유봉여고",
-                                path: "/vr/66",
+                                path: "http://vr.gwefestival.co.kr/scene_66_en.html/",
                             }
                         ]
                 }
@@ -386,113 +386,112 @@ const Header = () => {
                     subNav:
                         [
                             {
-                                title: "구정초등학교",
-                                path: "/vr/68",
+                                title: "웹툰만들기",
+                                path: "http://vr.gwefestival.co.kr/scene_68_en.html",
                             },
                             {
-                                title: "기린초등학교",
-                                path: "/vr/69",
+                                title: "얼굴 뱃지",
+                                path: "http://vr.gwefestival.co.kr/scene_69_en.html",
                             },
                             {
-                                title: "내대초등학교",
-                                path: "/vr/70",
+                                title: "Comica",
+                                path: "http://vr.gwefestival.co.kr/scene_70_en.html",
                             },
                             {
-                                title: "대진초등학교",
-                                path: "/vr/71",
+                                title: "다빈치 리졸브",
+                                path: "http://vr.gwefestival.co.kr/scene_71_en.html",
                             },
                             {
-                                title: "반곡초등학교",
-                                path: "/vr/72",
+                                title: "라인드로잉",
+                                path: "http://vr.gwefestival.co.kr/scene_72_en.html",
                             },
                             {
-                                title: "석천중학교",
-                                path: "/vr/73",
+                                title: "QR코드명함",
+                                path: "http://vr.gwefestival.co.kr/scene_73_en.html",
                             },
                             {
-                                title: "양구초등학교",
-                                path: "/vr/74",
+                                title: "PAPS코치 앱",
+                                path: "http://vr.gwefestival.co.kr/scene_74_en.html",
                             },
                             {
-                                title: "오저초등학교",
-                                path: "/vr/75",
+                                title: "스톱모션 애니",
+                                path: "http://vr.gwefestival.co.kr/scene_75_en.html",
                             },
                             {
-                                title: "장흥초등학교",
-                                path: "/vr/76",
+                                title: "디지털시민되기",
+                                path: "http://vr.gwefestival.co.kr/scene_76_en.html",
                             },
                             {
-                                title: "정선중학교",
-                                path: "/vr/77",
+                                title: "구글프레젠테이션",
+                                path: "http://vr.gwefestival.co.kr/scene_77_en.html",
                             }
                         ]
                 },
                 {
                     title: "인공지능(AI)교육",
-                    path: "/",
                     iconClosed: <RiIcons.RiArrowDownSFill className="arrowIcons" />,
                     iconOpened: <RiIcons.RiArrowUpSFill className="arrowIcons" />,
                     subNav:
                         [
                             {
-                                title: "김화중학교",
-                                path: "/vr/78",
+                                title: "미리캔버스",
+                                path: "http://vr.gwefestival.co.kr/scene_78_en.html",
                             },
                             {
-                                title: "노암초등학교",
-                                path: "/vr/79",
+                                title: "크롬 뮤직랩",
+                                path: "http://vr.gwefestival.co.kr/scene_79_en.html",
                             },
                             {
-                                title: "도촌초등학교",
-                                path: "/vr/80",
+                                title: "카드보드 VR",
+                                path: "http://vr.gwefestival.co.kr/scene_80_en.html",
                             },
                             {
-                                title: "동송초등학교",
-                                path: "/vr/81",
+                                title: "머신러닝포키즈",
+                                path: "http://vr.gwefestival.co.kr/scene_81_en.html",
                             },
                             {
-                                title: "마차초등학교",
-                                path: "/vr/82",
+                                title: "퀴즈앤세상",
+                                path: "http://vr.gwefestival.co.kr/scene_82_en.html",
                             },
                             {
-                                title: "상평초등학교",
-                                path: "/vr/83",
+                                title: "퀵 드로우",
+                                path: "http://vr.gwefestival.co.kr/scene_83_en.html",
                             },
                             {
-                                title: "여량중학교",
-                                path: "/vr/84",
+                                title: "AI for Oceans",
+                                path: "http://vr.gwefestival.co.kr/scene_84_en.html",
                             },
                             {
-                                title: "예람중학교",
-                                path: "/vr/85",
+                                title: "마인크래프트",
+                                path: "http://vr.gwefestival.co.kr/scene_85_en.html",
                             },
                             {
-                                title: "유봉여자고등학교",
-                                path: "/vr/86",
+                                title: "비트 작곡",
+                                path: "http://vr.gwefestival.co.kr/scene_86_en.html",
                             },
                             {
-                                title: "유천초등학교",
-                                path: "/vr/87",
+                                title: "아트앤컬쳐",
+                                path: "http://vr.gwefestival.co.kr/scene_87_en.html",
                             },
                             {
-                                title: "정동초등학교",
-                                path: "/vr/88",
+                                title: "오토드로우",
+                                path: "http://vr.gwefestival.co.kr/scene_88_en.html",
                             },
                             {
-                                title: "증산초등학교",
-                                path: "/vr/89",
+                                title: "두더쥐잡기",
+                                path: "http://vr.gwefestival.co.kr/scene_89_en.html",
                             },
                             {
-                                title: "태장초등학교",
-                                path: "/vr/90",
+                                title: "엔트리AI",
+                                path: "http://vr.gwefestival.co.kr/scene_90_en.html",
                             },
                             {
-                                title: "한솔초등학교",
-                                path: "/vr/91",
+                                title: "바디신스",
+                                path: "http://vr.gwefestival.co.kr/scene_91_en.html",
                             },
                             {
-                                title: "황지초등학교",
-                                path: "/vr/92",
+                                title: "아키네이터",
+                                path: "http://vr.gwefestival.co.kr/scene_92_en.html",
                             },
                         ]
                 },
@@ -503,24 +502,24 @@ const Header = () => {
                     subNav:
                         [
                             {
-                                title: "고산초등학교",
-                                path: "/vr/1",
+                                title: "드론코딩",
+                                path: "http://vr.gwefestival.co.kr/scene_93_en.html",
                             },
                             {
-                                title: "남춘천중학교",
-                                path: "/vr/2",
+                                title: "갤러그게임",
+                                path: "http://vr.gwefestival.co.kr/scene_94_en.html",
                             },
                             {
-                                title: "삼생초등학교",
-                                path: "/vr/3",
+                                title: "레고위",
+                                path: "http://vr.gwefestival.co.kr/scene_95_en.html",
                             },
                             {
-                                title: "송포초등학교",
-                                path: "/vr/4",
+                                title: "뚜루뚜루코딩봇",
+                                path: "http://vr.gwefestival.co.kr/scene_96_en.html",
                             },
                             {
-                                title: "철암중학교",
-                                path: "/vr/5",
+                                title: "마이크로비트 마퀸",
+                                path: "http://vr.gwefestival.co.kr/scene_97_en.html",
                             }
                         ]
                 }
@@ -588,12 +587,8 @@ const Header = () => {
                     <Link to="/">
                         <li onMouseEnter={controllUnderBar} className="gnb_depth1">행사개요</li>
                     </Link>
-                    <Link to="/vr/67">
-                        <li onMouseEnter={controllUnderBar} className="gnb_depth1">인사말</li>
-                    </Link>
-                    <Link to="/vr/98">
-                        <li onMouseEnter={controllUnderBar} className="gnb_depth1">강연 영상</li>
-                    </Link>
+                        <a onMouseEnter={controllUnderBar} className="gnb_depth1" href="http://vr.gwefestival.co.kr/scene_67_en.html">인사말</a>
+                        <a onMouseEnter={controllUnderBar} className="gnb_depth1" href="http://vr.gwefestival.co.kr/scene_98_en.html">강연 영상</a>
                     <li onMouseEnter={controllUnderBar} className="gnb_depth1">
                         성과 발표
                         <ul className="gnb_depth2 take_depth3" data-idx="1">
@@ -602,120 +597,55 @@ const Header = () => {
                                 <i className="fas fa-chevron-right custom-arrow"></i>
                                 <div className="gnb_depth3_box">
                                     <ul className="gnb_depth3">
-                                        <Link to="/vr/1">
-                                            <li>구정초등학교</li>
-                                        </Link>
-                                        <Link to="/vr/2">
-                                            <li>솔올중학교</li>
-                                        </Link>
-                                        <Link to="/vr/3">
-                                            <li>대진초등학교</li>
-                                        </Link>
-                                        <Link to="/vr/4">
-                                            <li>동해초등학교</li>
-                                        </Link>
-                                        <Link to="/vr/5">
-                                            <li>예람중학교</li>
-                                        </Link>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_1_en.html">구정초등학교</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_2_en.html">솔올중학교</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_3_en.html">대진초등학교</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_4_en.html">동해초등학교</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_5_en.html">예람중학교</a></li>
                                     </ul>
                                     <ul className="gnb_depth3">
-                                        <Link to="/vr/6">
-                                            <li>오저초등학교</li>
-                                        </Link>
-                                        <Link to="/vr/7">
-                                            <li>임원중학교</li>
-                                        </Link>
-                                        <Link to="/vr/8">
-                                            <li>송포초등학교</li>
-                                        </Link>
-                                        <Link to="/vr/9">
-                                            <li>현북중학교</li>
-                                        </Link>
-                                        <Link to="/vr/10">
-                                            <li>양구초등학교</li>
-                                        </Link>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_6_en.html">오저초등학교</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_7_en.html">임원중학교</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_8_en.html">송포초등학교</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_9_en.html">현북중학교</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_10_en.html">양구초등학교</a></li>
                                     </ul>
                                     <ul className="gnb_depth3">
-                                        <Link to="/vr/11">
-                                            <   li>석천중학교</li>
-                                        </Link>
-                                        <Link to="/vr/12">
-                                            <li>도촌초등학교</li>
-                                        </Link>
-                                        <Link to="/vr/13">
-                                            <li>한전초등학교</li>
-                                        </Link>
-                                        <Link to="/vr/14">
-                                            <li>마차초등학교</li>
-                                        </Link>
-                                        <Link to="/vr/15">
-                                            <li>영월중학교</li>
-                                        </Link>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_11_en.html">석천중학교</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_12_en.html">도촌초등학교</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_13_en.html">한전초등학교</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_14_en.html">마차초등학교</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_15_en.html">영월중학교</a></li>
                                     </ul>
                                     <ul className="gnb_depth3">
-                                        <Link to="/vr/16">
-                                            <li>고산초등학교</li>
-                                        </Link>
-                                        <Link to="/vr/17">
-                                            <li>육민관중학교</li>
-                                        </Link>
-                                        <Link to="/vr/18">
-                                            <li>원주여중</li>
-                                        </Link>
-                                        <Link to="/vr/19">
-                                            <li>기린초등학교</li>
-                                        </Link>
-                                        <Link to="/vr/20">
-                                            <li>함백초등학교</li>
-                                        </Link>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_16_en.html">고산초등학교</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_17_en.html">육민관중학교</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_18_en.html">원주여중</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_19_en.html">기린초등학교</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_20_en.html">함백초등학교</a></li>
+
                                     </ul>
                                     <ul className="gnb_depth3">
-                                        <Link to="/vr/21">
-                                            <li>정선중학교</li>
-                                        </Link>
-                                        <Link to="/vr/22">
-                                            <li>증산초등학교</li>
-                                        </Link>
-                                        <Link to="/vr/23">
-                                            <li>장흥초등학교</li>
-                                        </Link>
-                                        <Link to="/vr/24">
-                                            <li>김화중학교</li>
-                                        </Link>
-                                        <Link to="/vr/25">
-                                            <li>천전초등학교</li>
-                                        </Link>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_21_en.html">정선중학교</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_22_en.html">증산초등학교</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_23_en.html">장흥초등학교</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_24_en.html">김화중학교</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_25_en.html">천전초등학교</a></li>
+
                                     </ul>
                                     <ul className="gnb_depth3">
-                                        <Link to="/vr/26">
-                                            <li>남춘천중학교</li>
-                                        </Link>
-                                        <Link to="/vr/27">
-                                            <li>황지초등학교</li>
-                                        </Link>
-                                        <Link to="/vr/28">
-                                            <li>철암중학교</li>
-                                        </Link>
-                                        <Link to="/vr/29">
-                                            <li>삼생초등학교</li>
-                                        </Link>
-                                        <Link to="/vr/30">
-                                            <li>내면중학교</li>
-                                        </Link>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_26_en.html">남춘천중학교</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_27_en.html">황지초등학교</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_28_en.html">철암중학교</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_29_en.html">삼생초등학교</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_30_en.html">내면중학교</a></li>
+
                                     </ul>
                                     <ul className="gnb_depth3">
-                                        <Link to="/vr/31">
-                                            <li>성북초등학교</li>
-                                        </Link>
-                                        <Link to="/vr/32">
-                                            <li>횡성중학교</li>
-                                        </Link>
-                                        <Link to="/vr/33">
-                                            <li>태장초등학교</li>
-                                        </Link>
-                                        <Link to="/vr/34">
-                                            <li>북원중학교</li>
-                                        </Link>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_31_en.html">성북초등학교</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_32_en.html">횡성중학교</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_33_en.html">태장초등학교</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_34_en.html">북원중학교</a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -724,97 +654,43 @@ const Header = () => {
                                 <i className="fas fa-chevron-right custom-arrow"></i>
                                 <div className="gnb_depth3_box">
                                     <ul className="gnb_depth3">
-                                    <Link to="/vr/38">
-                                        <li>구곡초등학교</li>
-                                    </Link>
-                                    <Link to="/vr/39">
-                                        <li>귀둔초등학교</li>
-                                    </Link>
-                                    <Link to="/vr/40">
-                                        <li>동송초등학교</li>
-                                    </Link>
-                                    <Link to="/vr/41">
-                                        <li>무실초등학교</li>
-                                    </Link>
-                                    <Link to="/vr/42">
-                                        <li>문혜초등학교</li>
-                                    </Link>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_38_en.html">구곡초등학교</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_39_en.html">귀둔초등학교</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_40_en.html">동송초등학교</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_41_en.html">무실초등학교</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_42_en.html">문혜초등학교</a></li>
                                     </ul>
                                     <ul className="gnb_depth3">
-                                    <Link to="/vr/43">
-                                        <li>버들초등학교</li>
-                                    </Link>
-                                    <Link to="/vr/44">
-                                        <li>장흥초등학교</li>
-                                    </Link>
-                                    <Link to="/vr/45">
-                                        <li>천전초등학교</li>
-                                    </Link>
-                                    <Link to="/vr/46">
-                                        <li>춘천교대부설초등학교</li>
-                                    </Link>
-                                    <Link to="/vr/47">
-                                        <li>춘천삼육초등학교</li>
-                                    </Link>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_43_en.html">버들초등학교</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_44_en.html">장흥초등학교</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_45_en.html">천전초등학교</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_46_en.html">춘천교대부설초등학교</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_47_en.html">춘천삼육초등학교</a></li>
                                     </ul>
                                     <ul className="gnb_depth3">
-                                    <Link to="/vr/48">
-                                        <li>태서초등학교</li>
-                                    </Link>
-                                    <Link to="/vr/49">
-                                        <li>평원초등학교</li>
-                                    </Link>
-                                    <Link to="/vr/50">
-                                        <li>한솔초등학교</li>
-                                    </Link>
-                                    <Link to="/vr/51">
-                                        <li>현북초등학교</li>
-                                    </Link>
-                                    <Link to="/vr/52">
-                                        <li>황둔초등학교</li>
-                                    </Link>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_48_en.html">태서초등학교</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_49_en.html">평원초등학교</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_50_en.html">한솔초등학교</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_51_en.html">현북초등학교</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_52_en.html">황둔초등학교</a></li>
                                     </ul>
                                     <ul className="gnb_depth3">
-                                    <Link to="/vr/53">
-                                        <li>황지초등학교</li>
-                                    </Link>
-                                    <Link to="/vr/54">
-                                        <li>남원주중학교</li>
-                                    </Link>
-                                    <Link to="/vr/55">
-                                        <li>남춘천중학교</li>
-                                    </Link>
-                                    <Link to="/vr/56">
-                                        <li>단구중학교</li>
-                                    </Link>
-                                    <Link to="/vr/57">
-                                        <li>속초해랑중학교</li>
-                                    </Link>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_53_en.html">황지초등학교</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_54_en.html">남원주중학교</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_55_en.html">남춘천중학교</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_56_en.html">단구중학교</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_57_en.html">속초해랑중학교</a></li>
                                     </ul>
                                     <ul className="gnb_depth3">
-                                    <Link to="/vr/58">
-                                        <li>치악중학교</li>
-                                    </Link>
-                                    <Link to="/vr/59">
-                                        <li>강릉명륜고등학교</li>
-                                    </Link>
-                                    <Link to="/vr/60">
-                                        <li>강원사대부설고등학교</li>
-                                    </Link>
-                                    <Link to="/vr/61">
-                                        <li>북원여자고등학교</li>
-                                    </Link>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_58_en.html">치악중학교</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_59_en.html">강릉명륜고등학교</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_60_en.html">강원사대부설고등학교</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_61_en.html">북원여자고등학교</a></li>
                                     </ul>
                                     <ul className="gnb_depth3">
-                                    <Link to="/vr/62">
-                                        <li>원주고등학교</li>
-                                    </Link>
-                                    <Link to="/vr/63">
-                                        <li>홍천고등학교</li>
-                                    </Link>
-                                    <Link to="/vr/64">
-                                        <li>강릉오성학교</li>
-                                    </Link>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_62_en.html">원주고등학교</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_63_en.html">홍천고등학교</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_64_en.html">강릉오성학교</a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -823,15 +699,9 @@ const Header = () => {
                                 <i className="fas fa-chevron-right custom-arrow"></i>
                                 <div className="gnb_depth3_box">
                                     <ul className="gnb_depth3">
-                                    <Link to="/vr/34">
-                                        <li>반곡초등학교</li>
-                                    </Link>
-                                    <Link to="/vr/34">
-                                        <li>평창중학교</li>
-                                    </Link>
-                                    <Link to="/vr/34">
-                                        <li>내대초등학교</li>
-                                    </Link>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_35_en.html">반곡초등학교</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_36_en.html">평창중학교</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_37_en.html">내대초등학교</a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -840,12 +710,8 @@ const Header = () => {
                                 <i className="fas fa-chevron-right custom-arrow"></i>
                                 <div className="gnb_depth3_box">
                                     <ul className="gnb_depth3">
-                                    <Link to="/vr/65">
-                                        <li>치악고등학교</li>
-                                    </Link>
-                                    <Link to="/vr/66">
-                                        <li>유봉여고</li>
-                                    </Link>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_65_en.html">치악고등학교</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_66_en.html">유봉여고</a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -859,38 +725,18 @@ const Header = () => {
                                 <i className="fas fa-chevron-right custom-arrow"></i>
                                 <div className="gnb_depth3_box">
                                     <ul className="gnb_depth3">
-                                    <Link to="/vr/68">
-                                        <li>구정초등학교</li>
-                                    </Link>
-                                    <Link to="/vr/69">
-                                        <li>기린초등학교</li>
-                                    </Link>
-                                    <Link to="/vr/70">
-                                        <li>내대초등학교</li>
-                                    </Link>
-                                    <Link to="/vr/71">
-                                        <li>대진초등학교</li>
-                                    </Link>
-                                    <Link to="/vr/72">
-                                        <li>반곡초등학교</li>
-                                    </Link>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_68_en.html">웹툰만들기</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_69_en.html">얼굴 뱃지</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_70_en.html">Comica</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_71_en.html">다빈치 리졸브</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_72_en.html">라인드로잉</a></li>
                                     </ul>
                                     <ul className="gnb_depth3">
-                                    <Link to="/vr/73">
-                                        <li>석천중학교</li>
-                                    </Link>
-                                    <Link to="/vr/74">
-                                        <li>양구초등학교</li>
-                                    </Link>
-                                    <Link to="/vr/75">
-                                        <li>오저초등학교</li>
-                                    </Link>
-                                    <Link to="/vr/76">
-                                        <li>장흥초등학교</li>
-                                    </Link>
-                                    <Link to="/vr/77">
-                                        <li>정선중학교</li>
-                                    </Link>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_73_en.html">QR코드명함</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_74_en.html">PAPS코치 앱</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_75_en.html">스톱모션 애니</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_76_en.html">디지털시민되기</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_77_en.html">구글프레젠테이션</a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -899,55 +745,25 @@ const Header = () => {
                                 <i className="fas fa-chevron-right custom-arrow"></i>
                                 <div className="gnb_depth3_box">
                                     <ul className="gnb_depth3">
-                                    <Link to="/vr/78">
-                                        <li>김화중학교</li>
-                                    </Link>
-                                    <Link to="/vr/79">
-                                        <li>노암초등학교</li>
-                                    </Link>
-                                    <Link to="/vr/80">
-                                        <li>도촌초등학교</li>
-                                    </Link>
-                                    <Link to="/vr/81">
-                                        <li>동송초등학교</li>
-                                    </Link>
-                                    <Link to="/vr/82">
-                                        <li>마차초등학교</li>
-                                    </Link>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_78_en.html">미리캔버스</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_79_en.html">크롬 뮤직랩</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_80_en.html">카드보드 VR</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_81_en.html">머신러닝포키즈</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_82_en.html">퀴즈앤세상</a></li>
                                     </ul>
                                     <ul className="gnb_depth3">
-                                    <Link to="/vr/83">
-                                        <li>상평초등학교</li>
-                                    </Link>
-                                    <Link to="/vr/84">
-                                        <li>여량초등학교</li>
-                                    </Link>
-                                    <Link to="/vr/85">
-                                        <li>예람중학교</li>
-                                    </Link>
-                                    <Link to="/vr/86">
-                                        <li>유봉여자고등학교</li>
-                                    </Link>
-                                    <Link to="/vr/87">
-                                        <li>유천초등학교</li>
-                                    </Link>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_83_en.html">퀵 드로우</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_84_en.html">AI for Oceans</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_85_en.html">마인크래프트</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_86_en.html">비트 작곡</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_87_en.html">아트앤컬쳐</a></li>
                                     </ul>
                                     <ul className="gnb_depth3">
-                                    <Link to="/vr/88">
-                                        <li>정동초등학교</li>
-                                    </Link>
-                                    <Link to="/vr/89">
-                                        <li>증산초등학교</li>
-                                    </Link>
-                                    <Link to="/vr/90">
-                                        <li>태장초등학교</li>
-                                    </Link>
-                                    <Link to="/vr/91">
-                                        <li>한솔초등학교</li>
-                                    </Link>
-                                    <Link to="/vr/92">
-                                        <li>황지초등학교</li>
-                                    </Link>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_88_en.html">오토드로우</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_89_en.html">두더쥐잡기</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_90_en.html">엔트리AI</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_91_en.html">바디신스</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_92_en.html">아키네이터</a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -956,21 +772,11 @@ const Header = () => {
                                 <i className="fas fa-chevron-right custom-arrow"></i>
                                 <div className="gnb_depth3_box">
                                     <ul className="gnb_depth3">
-                                    <Link to="/vr/93">
-                                        <li>고산초등학교</li>
-                                    </Link>
-                                    <Link to="/vr/94">
-                                        <li>남춘천중학교</li>
-                                    </Link>
-                                    <Link to="/vr/95">
-                                        <li>삼생초등학교</li>
-                                    </Link>
-                                    <Link to="/vr/96">
-                                        <li>송포초등학교</li>
-                                    </Link>
-                                    <Link to="/vr/97">
-                                        <li>철암중학교</li>
-                                    </Link>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_93_en.html">드론코딩</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_94_en.html">갤러그게임</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_95_en.html">레고위</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_96_en.html">뚜루뚜루코딩봇</a></li>
+                                        <li><a href="http://vr.gwefestival.co.kr/scene_97_en.html">마이크로비트 마퀸</a></li>
                                     </ul>
                                 </div>
                             </li>

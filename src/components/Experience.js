@@ -51,11 +51,11 @@ const Experience = () => {
                 <h1 className="title open">게더타운 입장하기</h1>
                 <span className="titleUnderBar"></span>
                 <div className="gotoGatherWrap">
-                    <a href="" target="_blank" className="gotoGather">1번방 입장(정원: 70명)</a>
-                    <a href="" target="_blank" className="gotoGather">2번방 입장(정원: 25명)</a>
-                    <a href="" target="_blank" className="gotoGather">3번방 입장(정원: 25명)</a>
-                    <a href="" target="_blank" className="gotoGather">4번방 입장(정원: 25명)</a>
-                    <a href="" target="_blank" className="gotoGather">5번방 입장(정원: 25명)</a>
+                    <a href="https://gather.town/app/8viaqN5z1ypLs6z4/bighall01" target="_blank" className="gotoGather">1번방 입장(정원: 70명)</a>
+                    <a href="https://gather.town/app/2eu6vpZB9ZYmZRpe/bighall_02" target="_blank" className="gotoGather">2번방 입장(정원: 25명)</a>
+                    <a href="https://gather.town/app/V6xevA0tsNdYzwmd/bighall_03" target="_blank" className="gotoGather">3번방 입장(정원: 25명)</a>
+                    <a href="https://gather.town/app/soqZXLhX1HTMs2c1/bighall_04" target="_blank" className="gotoGather">4번방 입장(정원: 25명)</a>
+                    <a href="https://gather.town/app/Fg4lUrBMbLvv1Tv5/bighall_05" target="_blank" className="gotoGather">5번방 입장(정원: 25명)</a>
                 </div>
                 <p className="title">게더타운 접속방법</p>
                 <section className="gatherCardWrapOne">

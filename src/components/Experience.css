@@ -32,6 +32,7 @@ body::-webkit-scrollbar {
     margin-bottom: 28px;
 }
 .gotoGatherWrap{
+    width: 70%;
     display: flex;
     margin-bottom: 78px;
 }
@@ -80,7 +81,7 @@ body::-webkit-scrollbar {
 }
 .gatherCardImg{
     display: inline-block;
-    width: 399px;
+    width: 90%;
 }
 .slick-slider{
     width: 70%;
@@ -140,11 +141,26 @@ body::-webkit-scrollbar {
 
     .gotoGather {
         font-size: 14px;
-        width: 150px;
+        width: 80%;
+        max-width: 320px;
+        height: 45px;
+        font-size: 10px;
+        margin: 0 auto 5px;
         
     }
+    .gatherCardWrapOne{
+        width: 100%;
+    }
+    .gatherCardWrapTwo{
+        width: 100%;
+    }
+    .gotoGatherWrap{
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+    }
     .gatherCardImg{
-        width: 200px;
+        width: 90%;
     }
     .slick-slider{
         width: 66%;

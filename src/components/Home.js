@@ -6,12 +6,35 @@ import "./Home.css";
 import Visual from "./Visual";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import ba1 from "../assets/imgs/event/1.png"
+import ba2 from "../assets/imgs/event/2.png"
+
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import EventBanner from "./Event";
+
+
+const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1
+};
+
 gsap.registerPlugin(ScrollTrigger);
 
 const Home = () => {
     const PosterWrap = useRef();
     const table_1 = useRef();
     const table_2 = useRef();
+    const [check, setCheck] =useState(true)
+    const canselevent = (e) => {
+        if (check) {
+            document.querySelector('.ba-wrap').remove()
+        }
+    }
     useEffect(() => {
         gsap.fromTo(
             PosterWrap.current,
@@ -179,31 +202,31 @@ const Home = () => {
                         </div>
                         <div className="item td">
                             <h1>개회식(메타버스 개더타운)</h1>
-                            <Link to="" className="links">
+                            <a href="https://gather.town/app/8viaqN5z1ypLs6z4/bighall01" className="links">
                                 입장하기
-                            </Link>
+                            </a>
                         </div>
                         <div className="item td">
                             <h1>강연영상 전시관</h1>
-                            <Link to="" className="links">
+                            <a href="http://vr.gwefestival.co.kr/scene_98_en.html" className="links">
                                 입장하기
-                            </Link>
+                            </a>
                         </div>
                         <div className="item td">
                             <h1>성과발표 전시관</h1>
-                            <Link to="" className="links">
+                            <a href="http://vr.gwefestival.co.kr/scene_1_en.html" className="links">
                                 입장하기
-                            </Link>
+                            </a>
                         </div>
                         <div className="item td">
                             <h1>체험부스 전시관</h1>
-                            <Link to="" className="links">
+                            <a href="http://vr.gwefestival.co.kr/scene_68_en.html" className="links">
                                 입장하기
-                            </Link>
+                            </a>
                         </div>
                         <div className="item td">
                             <h1>메타버스 개더 타운 체험</h1>
-                            <Link to="" className="links">
+                            <Link to="/experience" className="links">
                                 입장하기
                             </Link>
                         </div>
@@ -224,9 +247,9 @@ const Home = () => {
                                 이벤트① <br />
                                 체험부스 스탬프 이벤트
                             </h1>
-                            <Link to="" className="links">
+                            <a href="http://vr.gwefestival.co.kr/" className="links">
                                 입장하기
-                            </Link>
+                            </a>
                         </div>
                         <div className="item tdc">
                             <h1>이벤트② <br />
@@ -240,32 +263,33 @@ const Home = () => {
                                 <h1>이벤트③-개더타운 특별이벤트</h1>
                                 <span>무궁화 꽃이 피었습니다</span>
                             </div>
-                            <Link to="" className="links">
+                            <a href="https://gather.town/app/8viaqN5z1ypLs6z4/bighall01" className="links">
                                 입장하기
-                            </Link>
+                            </a>
                         </div>
                         <div className="item tdc">
                             <div className="table-txt-box">
 
-                            <h1>이벤트③-개더타운 특별이벤트</h1>
-                            <span>OX퀴즈</span>
+                                <h1>이벤트③-개더타운 특별이벤트</h1>
+                                <span>OX퀴즈</span>
                             </div>
-                            <Link to="" className="links">
+                            <a href="https://gather.town/app/8viaqN5z1ypLs6z4/bighall01" className="links">
                                 입장하기
-                            </Link>
+                            </a>
                         </div>
                         <div className="item tdc">
                             <div className="table-txt-box">
                                 <h1>이벤트③-개더타운 특별이벤트</h1>
                                 <span>방탈출게임</span>
                             </div>
-                            <Link to="" className="links">
+                            <a href="https://gather.town/app/8viaqN5z1ypLs6z4/bighall01" className="links">
                                 입장하기
-                            </Link>
+                            </a>
                         </div>
                     </div>
                 </div>
             </main>
+            <EventBanner/>
         </>
     )
 }

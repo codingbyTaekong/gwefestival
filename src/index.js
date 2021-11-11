@@ -9,7 +9,9 @@ import Vr from './components/Vr';
 import Experience from './components/Experience';
 import Footer from './components/Footer';
 
+
 ReactDOM.render(
+
   <React.StrictMode>
     <Router>
       <Header />

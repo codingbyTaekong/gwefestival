@@ -46,7 +46,7 @@
     height: 405px;
     display: flex;
     flex-direction: column;
-    margin-left: 100px;
+    margin-left: 22%;
 }
 
 .v-under-bar {
@@ -412,12 +412,20 @@
     display: none;
 }
 
+.mobile-visual .slick-slide {
+    /* display: none; */
+}
+
+.mobile-visual .slick-slider {
+    width: 100%;
+}
+
 
 
 /* ipad pro 가로 */
 @media (max-width:1366px) and (orientation: landscape) {
     .txt-box {
-        margin-left: 50px;
+        margin-left: 16%;
     }
     .visual h1 {
         font-size: 40px;
@@ -476,7 +484,7 @@
     }
     .mobile-visual {
         display: flex;
-        height: 80vh;
+        min-height: 80vh;
         overflow: hidden;
     }
     .slick-slider {
@@ -644,6 +652,10 @@
         letter-spacing: -1.04px;    
     }
 
+    .m-txtbox .m-title {
+        display: block;
+    }
+
     .mobile-visual .m-visul[data-idx="3"] .m-title {
         color: #e03838;
     }
@@ -771,7 +783,6 @@
     }
     .mobile-visual {
         display: flex;
-        height: 80vh;
         overflow: hidden;
     }
     .slick-slider {

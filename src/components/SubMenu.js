@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import styled from 'styled-components';
 import Depth3Menu from "./Depth3Menu"
 
-const SidebarLink = styled(Link)`
+const SidebarLink = styled.a`
     display : flex;
     align-items: center;
     color : #fff;
@@ -74,7 +74,7 @@ const SubMenu = ({ item, i, onClick }) => {
     return (
         <>
             {item.path
-                ? <SidebarLink to={item.path} >
+                ? <SidebarLink href={item.path} >
                     {item.icon ? item.icon : null}
                     <Sidebarlabel>{item.title}</Sidebarlabel>
                         <div>
