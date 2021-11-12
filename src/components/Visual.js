@@ -62,7 +62,7 @@ const Visual = () => {
                         <h1>강연 영상</h1>
                         <span className="v-under-bar"></span>
                         <p className="v-subtxt">정보교육 소양을 위한 강연활동</p>
-                        <a href="http://vr.gwefestival.co.kr/scene_98_en.html" className="v-links">강연 영상 바로가기</a>
+                        <a href="https://vr.gwefestival.co.kr/scene_98_en.html" className="v-links">강연 영상 바로가기</a>
                     </div>
                     <div className="h_txtbox">
                         <ul>
@@ -103,7 +103,7 @@ const Visual = () => {
                         <h1>성과 발표</h1>
                         <span className="v-under-bar"></span>
                         <p className="v-subtxt">연구·선도학교 성과발표를 홍보 포스터와<br />영상으로 자유롭게 만나보세요</p>
-                        <a href="http://vr.gwefestival.co.kr/scene_1_en.html" className="v-links">성과 발표 바로가기</a>
+                        <a href="https://vr.gwefestival.co.kr/scene_1_en.html" className="v-links">성과 발표 바로가기</a>
                     </div>
                     <div className="h_txtbox">
                         <div className="h_container">
@@ -137,7 +137,7 @@ const Visual = () => {
                         <h1>체험 부스</h1>
                         <span className="v-under-bar"></span>
                         <p className="v-subtxt">흥미진진한 SW·AI교육·디지털<br />리터러시 교육의 다양한 체험활동을<br />온라인 부스로 참여하세요</p>
-                        <a href="http://vr.gwefestival.co.kr/scene_68_en.html" className="v-links">체험 부스 바로가기</a>
+                        <a href="https://vr.gwefestival.co.kr/scene_68_en.html" className="v-links">체험 부스 바로가기</a>
                     </div>
                     <div className="h_txtbox">
                         <div className="h_container">
@@ -248,7 +248,7 @@ const Visual = () => {
                                     <span className="h-teacher">천곡초 교감 정계웅</span>
                                 </div>
                             </ul>
-                            <a href="http://vr.gwefestival.co.kr/scene_98_en.html" className="m-link">강연 영상 바로가기</a>
+                            <a href="https://vr.gwefestival.co.kr/scene_98_en.html" className="m-link">강연 영상 바로가기</a>
                         </div>
                     </div>
                     <div className="m-visul" data-idx="2">
@@ -285,7 +285,7 @@ const Visual = () => {
                                 </p>
                             </div>
                         </div>
-                        <a href="http://vr.gwefestival.co.kr/scene_1_en.html" className="m-link">성과 발표 바로가기</a>
+                        <a href="https://vr.gwefestival.co.kr/scene_1_en.html" className="m-link">성과 발표 바로가기</a>
                     </div>
                     <div className="m-visul" data-idx="3">
                         <div className="m-txtbox">
@@ -318,7 +318,7 @@ const Visual = () => {
                                 </p>
                             </div>
                         </div>
-                        <a href="http://vr.gwefestival.co.kr/scene_68_en.html" className="m-link">체험 부스 바로가기</a>
+                        <a href="https://vr.gwefestival.co.kr/scene_68_en.html" className="m-link">체험 부스 바로가기</a>
                     </div>
                     <div className="m-visul" data-idx="4">
                         <div className="m-txtbox">

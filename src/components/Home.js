@@ -208,19 +208,19 @@ const Home = () => {
                         </div>
                         <div className="item td">
                             <h1>강연영상 전시관</h1>
-                            <a href="http://vr.gwefestival.co.kr/scene_98_en.html" className="links">
+                            <a href="https://vr.gwefestival.co.kr/scene_98_en.html" className="links">
                                 입장하기
                             </a>
                         </div>
                         <div className="item td">
                             <h1>성과발표 전시관</h1>
-                            <a href="http://vr.gwefestival.co.kr/scene_1_en.html" className="links">
+                            <a href="https://vr.gwefestival.co.kr/scene_1_en.html" className="links">
                                 입장하기
                             </a>
                         </div>
                         <div className="item td">
                             <h1>체험부스 전시관</h1>
-                            <a href="http://vr.gwefestival.co.kr/scene_68_en.html" className="links">
+                            <a href="https://vr.gwefestival.co.kr/scene_68_en.html" className="links">
                                 입장하기
                             </a>
                         </div>
@@ -247,15 +247,15 @@ const Home = () => {
                                 이벤트① <br />
                                 체험부스 스탬프 이벤트
                             </h1>
-                            <a href="https://forms.gle/ccJDmQpSYUpoKvEz9" target="_blank" rel="noopener noreferrer" className="links">
-                                참여하기
+                            <a href="https://vr.gwefestival.co.kr/" target="_blank" rel="noopener noreferrer" className="links">
+                                입장하기
                             </a>
                         </div>
                         <div className="item tdc">
                             <h1>이벤트② <br />
                                 축제후기 설문 이벤트</h1>
                             <a href="https://forms.gle/ccJDmQpSYUpoKvEz9" target="_blank" rel="noopener noreferrer" className="links">
-                                입장하기
+                                참여하기
                             </a>
                         </div>
                         <div className="item tdc">

@@ -13,7 +13,7 @@ ReactDOM.render(
 
   <React.StrictMode>
     <Router>
-      {/* <ScrollToTop/> */}
+      <ScrollToTop/>
       <Header />
       <Switch>
         <Route exact path="/">

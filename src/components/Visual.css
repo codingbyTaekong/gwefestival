@@ -307,6 +307,10 @@
     background-position: center center;
 }
 
+.visual.cloned .txt-box {
+    margin-left: 8%;
+}
+
 .visual.cloned[data-idx="1"] {
     background-image: url("../assets/imgs/visual/1_hover.png");
 }
