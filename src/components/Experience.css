@@ -145,7 +145,6 @@ body::-webkit-scrollbar {
         width: 80%;
         max-width: 320px;
         height: 45px;
-        font-size: 10px;
         margin: 0 auto 5px;
         
     }

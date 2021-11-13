@@ -416,10 +416,6 @@
     display: none;
 }
 
-.mobile-visual .slick-slide {
-    /* display: none; */
-}
-
 .mobile-visual .slick-slider {
     width: 100%;
 }

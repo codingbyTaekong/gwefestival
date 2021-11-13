@@ -146,8 +146,8 @@ const Home = () => {
                         <span className="tt">이벤트</span>
                         <p className="td">
                             온라인 이벤트<br />
-                            -체험부스 스템프 이벤트<br />
-                            -축제 후기 설문 참여 이벤트
+                            -온라인 전시관 스탬프 이벤트<br />
+                            -축제후기 설문 이벤트
                         </p>
                     </div>
                 </div>
