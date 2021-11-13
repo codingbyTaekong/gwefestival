@@ -221,7 +221,7 @@ body::-webkit-scrollbar {
         width: 70%;
         max-width: 320px;
         height: 45px;
-        font-size: 10px;
+        font-size: 13px;
         margin: 0 auto 5px;
     }
     .gotoGatherWrap{
@@ -249,12 +249,19 @@ body::-webkit-scrollbar {
     }
     .mGatherCardWrapOne{
         display: block;
-        width: 70%;
+        width: 90%;
         margin-bottom: 76px;
+    }
+    .mGatherCardWrapOne .slick-arrow {
+        display: none;
+    }
+
+    .mGatherCardWrapOne .slick-dots li button:before, .mGatherCardWrapTwo .slick-dots li button:before {
+        color: #404040;
     }
     .mGatherCardWrapTwo{
         display: block;
-        width: 70%;
+        width: 90%;
         margin-bottom: 238px;
     }
     .gatherCardImg{

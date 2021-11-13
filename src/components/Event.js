@@ -4,6 +4,7 @@ import "./event.css";
 
 import ba1 from "../assets/imgs/event/1.png"
 import ba2 from "../assets/imgs/event/2.png"
+import ba3 from "../assets/imgs/event/3.png"
 
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -22,8 +23,8 @@ const settings = {
 
 const EventBanner = () => {
     const popup = useRef()
-    let now = new Date;
-    let after1m =new Date;
+    let now = new Date();
+    let after1m =new Date();
     
     const [cookies, setCookie, removeCookie] = useCookies(['eb']);
     const [show, setShow] = useState(true);
@@ -52,6 +53,9 @@ const EventBanner = () => {
                     </div>
                     <div className="events-box">
                         <Slider {...settings}>
+                            <div className="e-banner" data-idx="3">
+                                <img src={ba3}></img>
+                            </div>
                             <div className="e-banner" data-idx="1">
                                 <img src={ba1}></img>
                             </div>

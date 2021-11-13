@@ -220,10 +220,14 @@
 
     .f-c-row h1 {
         font-family: "NotoSansKR-Bold";
-        font-size: 16px;
+        font-size: 14px;
+        margin-bottom: 5px;
         letter-spacing: -1px;
     }
     
+    .googleform a {
+        font-size: 17px;
+    }
     .f-c-row i {
         font-size: 16px;
     }

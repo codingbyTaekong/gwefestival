@@ -58,7 +58,6 @@ const SubMenu = ({ item, i, onClick }) => {
         clicked : false
     });
     const showdepth3 = (e)=> {
-        console.log(e)
         if (!depth3.clicked) {
             setDepth3({
                 title : e.target.textContent,

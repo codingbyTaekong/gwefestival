@@ -6,22 +6,8 @@ import "./Home.css";
 import Visual from "./Visual";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import ba1 from "../assets/imgs/event/1.png"
-import ba2 from "../assets/imgs/event/2.png"
-
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import EventBanner from "./Event";
 
-
-const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1
-};
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -29,12 +15,7 @@ const Home = () => {
     const PosterWrap = useRef();
     const table_1 = useRef();
     const table_2 = useRef();
-    const [check, setCheck] =useState(true)
-    const canselevent = (e) => {
-        if (check) {
-            document.querySelector('.ba-wrap').remove()
-        }
-    }
+
     useEffect(() => {
         gsap.fromTo(
             PosterWrap.current,
@@ -245,7 +226,7 @@ const Home = () => {
                         <div className="item tdc">
                             <h1>
                                 이벤트① <br />
-                                체험부스 스탬프 이벤트
+                                온라인 전시관 스탬프 이벤트
                             </h1>
                             <a href="https://vr.gwefestival.co.kr/" target="_blank" rel="noopener noreferrer" className="links">
                                 입장하기

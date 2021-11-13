@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import styled from 'styled-components';
 
 const Depth3Menu = ({depth3Items, state, title, onClick}) => {
-    const Depth3_S = styled(Link)`
+    const Depth3_S = styled.a`
     display : flex;
     align-items: center;
     color : #fff;
@@ -18,7 +18,7 @@ const Depth3Menu = ({depth3Items, state, title, onClick}) => {
         state.title === title && depth3Items.map((item, index)=> {
             return (
                 <>
-                    <Depth3_S to={item.path} key={index} onClick={onClick}>{item.title}</Depth3_S>
+                    <Depth3_S href={item.path} key={index} onClick={onClick}>{item.title}</Depth3_S>
                 </>
             )
         })

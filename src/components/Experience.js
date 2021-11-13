@@ -36,11 +36,14 @@ const settings = {
 };
 
 const mSettings = {
-    dots: false,
+    dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    arrows : false,
+    adaptiveHeight : true,
+    autoplay: true
 }
 
 const Experience = () => {
