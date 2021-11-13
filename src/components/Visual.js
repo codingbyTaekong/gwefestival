@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from "react";
+import React, { useRef } from "react";
 import { Link } from 'react-router-dom';
 
 import Slider from "react-slick";
@@ -20,10 +20,10 @@ const Visual = () => {
             }
             const cloneEl = el.cloneNode(true);
             cloneEl.classList.add('cloned')
+            container.current.appendChild(cloneEl);
             cloneEl.style.width = `${el.getBoundingClientRect().width}px`;
             cloneEl.style.height = `${el.getBoundingClientRect().height}px`;
             cloneEl.style.left = `${el.getBoundingClientRect().x}px`;
-            container.current.appendChild(cloneEl);
         }
     }
     const stopAni = (e) => {
@@ -159,7 +159,7 @@ const Visual = () => {
                 <div className="visual" data-idx="4" onMouseEnter={controllback}>
                     <div className="v-back" ></div>
                     <div className="txt-box" onMouseEnter={visualAni}>
-                        <h1>개더타운체험</h1>
+                        <h1>게더타운체험</h1>
                         <span className="v-under-bar"></span>
                         <span className="v-subtxt">메타버스 게더타운의 가상공간에서<br />현실처럼 자유롭게 체험하자!</span>
                         <a href="/experience" className="v-links">게더타운체험 바로가기</a>
@@ -322,10 +322,10 @@ const Visual = () => {
                     </div>
                     <div className="m-visul" data-idx="4">
                         <div className="m-txtbox">
-                            <h1 className="m-title">개더타운체험</h1>
+                            <h1 className="m-title">게더타운체험</h1>
                             <span className="m-underbar"></span>
                             <p className="m-subtxt">
-                                메타버스 개더타운 가상공간에서<br />
+                                메타버스 게더타운 가상공간에서<br />
                                 현실처럼 자유롭게 체험해 보세요!
                             </p>
                         </div>
@@ -356,7 +356,7 @@ const Visual = () => {
                                     </li>
                                 </div>
                             </ul>
-                            <a href="/experience" className="m-link">개더타운체험 바로가기</a>
+                            <a href="/experience" className="m-link">게더타운체험 바로가기</a>
                         </div>
                     </div>
                 </Slider>

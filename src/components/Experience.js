@@ -51,7 +51,7 @@ const Experience = () => {
         <>
             <div className="mainbanner"></div>
             <main>
-                <h1 className="title open">개더타운 입장하기</h1>
+                <h1 className="title open">게더타운 입장하기</h1>
                 <span className="titleUnderBar"></span>
                 <div className="gotoGatherWrap">
                     <a href="https://gather.town/app/8viaqN5z1ypLs6z4/bighall01" target="_blank" rel="noopener noreferrer" className="gotoGather">1번방 입장(정원: 70명)</a>
@@ -60,149 +60,149 @@ const Experience = () => {
                     <a href="https://gather.town/app/soqZXLhX1HTMs2c1/bighall_04" target="_blank" rel="noopener noreferrer" className="gotoGather">4번방 입장(정원: 25명)</a>
                     <a href="https://gather.town/app/Fg4lUrBMbLvv1Tv5/bighall_05" target="_blank" rel="noopener noreferrer" className="gotoGather">5번방 입장(정원: 25명)</a>
                 </div>
-                <p className="title">개더타운 접속방법</p>
+                <p className="title">게더타운 접속방법</p>
                 <section className="gatherCardWrapOne">
                 <Slider {...settings}>
                     <div className="gatherCard" data-idx="1">
-                        <img className="gatherCardImg" src={login1} alt="개더타운 접속방법"></img>
+                        <img className="gatherCardImg" src={login1} alt="게더타운 접속방법"></img>
                     </div>
                     <div className="gatherCard" data-idx="2">
-                        <img className="gatherCardImg" src={login2} alt="개더타운 접속방법"></img> 
+                        <img className="gatherCardImg" src={login2} alt="게더타운 접속방법"></img> 
                     </div>
                     <div className="gatherCard" data-idx="3">
-                        <img className="gatherCardImg" src={login3} alt="개더타운 접속방법"></img> 
+                        <img className="gatherCardImg" src={login3} alt="게더타운 접속방법"></img> 
                     </div>
                     <div className="gatherCard" data-idx="4">
-                        <img className="gatherCardImg" src={login4} alt="개더타운 접속방법"></img> 
+                        <img className="gatherCardImg" src={login4} alt="게더타운 접속방법"></img> 
                     </div>
                     <div className="gatherCard" data-idx="5">
-                        <img className="gatherCardImg" src={login5} alt="개더타운 접속방법"></img> 
+                        <img className="gatherCardImg" src={login5} alt="게더타운 접속방법"></img> 
                     </div>
                     <div className="gatherCard" data-idx="6">
-                        <img className="gatherCardImg" src={login6} alt="개더타운 접속방법"></img>
+                        <img className="gatherCardImg" src={login6} alt="게더타운 접속방법"></img>
                     </div>
                     <div className="gatherCard" data-idx="7">
-                        <img className="gatherCardImg" src={login7} alt="개더타운 접속방법"></img>
+                        <img className="gatherCardImg" src={login7} alt="게더타운 접속방법"></img>
                     </div>
                     <div className="gatherCard" data-idx="8">
-                        <img className="gatherCardImg" src={login8} alt="개더타운 접속방법"></img>
+                        <img className="gatherCardImg" src={login8} alt="게더타운 접속방법"></img>
                     </div>
                     <div className="gatherCard" data-idx="9">
-                        <img className="gatherCardImg" src={login9} alt="개더타운 접속방법"></img>
+                        <img className="gatherCardImg" src={login9} alt="게더타운 접속방법"></img>
                     </div>
                     <div className="gatherCard" data-idx="10">
-                        <img className="gatherCardImg" src={login10} alt="개더타운 접속방법"></img>
+                        <img className="gatherCardImg" src={login10} alt="게더타운 접속방법"></img>
                     </div>
                     </Slider>
                 </section>
-                <p className="title">개더타운 사용방법</p>
+                <p className="title">게더타운 사용방법</p>
                 <section className="gatherCardWrapTwo">
                 <Slider {...settings}>
                     <div className="gatherCard" data-idx="1">
-                        <img className="gatherCardImg" src={use01} alt="개더타운 사용방법"></img>
+                        <img className="gatherCardImg" src={use01} alt="게더타운 사용방법"></img>
                     </div>
                     <div className="gatherCard" data-idx="2">
-                        <img className="gatherCardImg" src={use02} alt="개더타운 사용방법"></img> 
+                        <img className="gatherCardImg" src={use02} alt="게더타운 사용방법"></img> 
                     </div>
                     <div className="gatherCard" data-idx="3">
-                        <img className="gatherCardImg" src={use03} alt="개더타운 사용방법"></img> 
+                        <img className="gatherCardImg" src={use03} alt="게더타운 사용방법"></img> 
                     </div>
                     <div className="gatherCard" data-idx="4">
-                        <img className="gatherCardImg" src={use04} alt="개더타운 사용방법"></img> 
+                        <img className="gatherCardImg" src={use04} alt="게더타운 사용방법"></img> 
                     </div>
                     <div className="gatherCard" data-idx="5">
-                        <img className="gatherCardImg" src={use05} alt="개더타운 사용방법"></img> 
+                        <img className="gatherCardImg" src={use05} alt="게더타운 사용방법"></img> 
                     </div>
                     <div className="gatherCard" data-idx="6">
-                        <img className="gatherCardImg" src={use06} alt="개더타운 사용방법"></img>
+                        <img className="gatherCardImg" src={use06} alt="게더타운 사용방법"></img>
                     </div>
                     <div className="gatherCard" data-idx="7">
-                        <img className="gatherCardImg" src={use07} alt="개더타운 사용방법"></img>
+                        <img className="gatherCardImg" src={use07} alt="게더타운 사용방법"></img>
                     </div>
                     <div className="gatherCard" data-idx="8">
-                        <img className="gatherCardImg" src={use08} alt="개더타운 사용방법"></img>
+                        <img className="gatherCardImg" src={use08} alt="게더타운 사용방법"></img>
                     </div>
                     <div className="gatherCard" data-idx="9">
-                        <img className="gatherCardImg" src={use09} alt="개더타운 사용방법"></img>
+                        <img className="gatherCardImg" src={use09} alt="게더타운 사용방법"></img>
                     </div>
                     <div className="gatherCard" data-idx="10">
-                        <img className="gatherCardImg" src={use10} alt="개더타운 사용방법"></img>
+                        <img className="gatherCardImg" src={use10} alt="게더타운 사용방법"></img>
                     </div>
                     <div className="gatherCard" data-idx="10">
-                        <img className="gatherCardImg" src={use11} alt="개더타운 사용방법"></img>
+                        <img className="gatherCardImg" src={use11} alt="게더타운 사용방법"></img>
                     </div>
                     </Slider>
                 </section>
-                <p className="m-title">개더타운 접속방법</p>
+                <p className="m-title">게더타운 접속방법</p>
                 <section className="mGatherCardWrapOne">
                 <Slider {...mSettings}>
                     <div className="gatherCard" data-idx="1">
-                        <img className="gatherCardImg" src={login1} alt="개더타운 접속방법"></img>
+                        <img className="gatherCardImg" src={login1} alt="게더타운 접속방법"></img>
                     </div>
                     <div className="gatherCard" data-idx="2">
-                        <img className="gatherCardImg" src={login2} alt="개더타운 접속방법"></img> 
+                        <img className="gatherCardImg" src={login2} alt="게더타운 접속방법"></img> 
                     </div>
                     <div className="gatherCard" data-idx="3">
-                        <img className="gatherCardImg" src={login3} alt="개더타운 접속방법"></img> 
+                        <img className="gatherCardImg" src={login3} alt="게더타운 접속방법"></img> 
                     </div>
                     <div className="gatherCard" data-idx="4">
-                        <img className="gatherCardImg" src={login4} alt="개더타운 접속방법"></img> 
+                        <img className="gatherCardImg" src={login4} alt="게더타운 접속방법"></img> 
                     </div>
                     <div className="gatherCard" data-idx="5">
-                        <img className="gatherCardImg" src={login5} alt="개더타운 접속방법"></img> 
+                        <img className="gatherCardImg" src={login5} alt="게더타운 접속방법"></img> 
                     </div>
                     <div className="gatherCard" data-idx="6">
-                        <img className="gatherCardImg" src={login6} alt="개더타운 접속방법"></img>
+                        <img className="gatherCardImg" src={login6} alt="게더타운 접속방법"></img>
                     </div>
                     <div className="gatherCard" data-idx="7">
-                        <img className="gatherCardImg" src={login7} alt="개더타운 접속방법"></img>
+                        <img className="gatherCardImg" src={login7} alt="게더타운 접속방법"></img>
                     </div>
                     <div className="gatherCard" data-idx="8">
-                        <img className="gatherCardImg" src={login8} alt="개더타운 접속방법"></img>
+                        <img className="gatherCardImg" src={login8} alt="게더타운 접속방법"></img>
                     </div>
                     <div className="gatherCard" data-idx="9">
-                        <img className="gatherCardImg" src={login9} alt="개더타운 접속방법"></img>
+                        <img className="gatherCardImg" src={login9} alt="게더타운 접속방법"></img>
                     </div>
                     <div className="gatherCard" data-idx="10">
                         <img className="gatherCardImg" src={login10}></img>
                     </div>
                     </Slider>
                 </section>
-                <p className="m-title">개더타운 사용방법</p>
+                <p className="m-title">게더타운 사용방법</p>
                 <section className="mGatherCardWrapTwo">
                 <Slider {...mSettings}>
                     <div className="gatherCard" data-idx="1">
-                        <img className="gatherCardImg" src={use01} alt="개더타운 사용방법"></img>
+                        <img className="gatherCardImg" src={use01} alt="게더타운 사용방법"></img>
                     </div>
                     <div className="gatherCard" data-idx="2">
-                        <img className="gatherCardImg" src={use02} alt="개더타운 사용방법"></img> 
+                        <img className="gatherCardImg" src={use02} alt="게더타운 사용방법"></img> 
                     </div>
                     <div className="gatherCard" data-idx="3">
-                        <img className="gatherCardImg" src={use03} alt="개더타운 사용방법"></img> 
+                        <img className="gatherCardImg" src={use03} alt="게더타운 사용방법"></img> 
                     </div>
                     <div className="gatherCard" data-idx="4">
-                        <img className="gatherCardImg" src={use04} alt="개더타운 사용방법"></img> 
+                        <img className="gatherCardImg" src={use04} alt="게더타운 사용방법"></img> 
                     </div>
                     <div className="gatherCard" data-idx="5">
-                        <img className="gatherCardImg" src={use05} alt="개더타운 사용방법"></img> 
+                        <img className="gatherCardImg" src={use05} alt="게더타운 사용방법"></img> 
                     </div>
                     <div className="gatherCard" data-idx="6">
-                        <img className="gatherCardImg" src={use06} alt="개더타운 사용방법"></img>
+                        <img className="gatherCardImg" src={use06} alt="게더타운 사용방법"></img>
                     </div>
                     <div className="gatherCard" data-idx="7">
-                        <img className="gatherCardImg" src={use07} alt="개더타운 사용방법"></img>
+                        <img className="gatherCardImg" src={use07} alt="게더타운 사용방법"></img>
                     </div>
                     <div className="gatherCard" data-idx="8">
-                        <img className="gatherCardImg" src={use08} alt="개더타운 사용방법"></img>
+                        <img className="gatherCardImg" src={use08} alt="게더타운 사용방법"></img>
                     </div>
                     <div className="gatherCard" data-idx="9">
-                        <img className="gatherCardImg" src={use09} alt="개더타운 사용방법"></img>
+                        <img className="gatherCardImg" src={use09} alt="게더타운 사용방법"></img>
                     </div>
                     <div className="gatherCard" data-idx="10">
-                        <img className="gatherCardImg" src={use10} alt="개더타운 사용방법"></img>
+                        <img className="gatherCardImg" src={use10} alt="게더타운 사용방법"></img>
                     </div>
                     <div className="gatherCard" data-idx="10">
-                        <img className="gatherCardImg" src={use11} alt="개더타운 사용방법"></img>
+                        <img className="gatherCardImg" src={use11} alt="게더타운 사용방법"></img>
                     </div>
                     </Slider>
                 </section>

@@ -19,9 +19,11 @@ const Header = () => {
     }
 
     useEffect(()=> {
-        let underBar_W = underBar.current.getBoundingClientRect().width
-        let depthTitle_W = startDepth.current.getBoundingClientRect().width
-        underBar.current.style = `left : ${startDepth.current.getBoundingClientRect().x - ((underBar_W - depthTitle_W) / 2)}px; opacity: 1;`
+        setTimeout(()=> {
+            let underBar_W = underBar.current.getBoundingClientRect().width
+            let depthTitle_W = startDepth.current.getBoundingClientRect().width
+            underBar.current.style = `left : ${startDepth.current.getBoundingClientRect().x - ((underBar_W - depthTitle_W) / 2)}px; opacity: 1;`
+        },500)
     }, [])
 
     function ResetDepth(Node, ClassName) {
@@ -532,7 +534,7 @@ const Header = () => {
             ]
         },
         {
-            title: "개더타운체험",
+            title: "게더타운체험",
             path: "/experience",
         }
     ]
@@ -779,7 +781,7 @@ const Header = () => {
                     </li>
 
                     <Link to="/experience">
-                        <li onMouseOver={controllUnderBar} className="gnb_depth1">개더타운체험</li>
+                        <li onMouseOver={controllUnderBar} className="gnb_depth1">게더타운체험</li>
                     </Link>
                 </ul>
                 <span className="underBar" ref={underBar} style={style}></span>
