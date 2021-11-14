@@ -375,7 +375,7 @@ const Header = () => {
                                 path: "https://vr.gwefestival.co.kr/scene_65_en.html/",
                             },
                             {
-                                title: "유봉여고",
+                                title: "유봉여자고등학교",
                                 path: "https://vr.gwefestival.co.kr/scene_66_en.html/",
                             }
                         ]
@@ -510,7 +510,7 @@ const Header = () => {
                     subNav:
                         [
                             {
-                                title: "드론코딩",
+                                title: "드론비행체험",
                                 path: "https://vr.gwefestival.co.kr/scene_93_en.html",
                             },
                             {
@@ -708,7 +708,7 @@ const Header = () => {
                                 <div className="gnb_depth3_box">
                                     <ul className="gnb_depth3">
                                         <li><a href="https://vr.gwefestival.co.kr/scene_65_en.html">치악고등학교</a></li>
-                                        <li><a href="https://vr.gwefestival.co.kr/scene_66_en.html">유봉여고</a></li>
+                                        <li><a href="https://vr.gwefestival.co.kr/scene_66_en.html">유봉여자고등학교</a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -769,7 +769,7 @@ const Header = () => {
                                 <i className="fas fa-chevron-right custom-arrow"></i>
                                 <div className="gnb_depth3_box">
                                     <ul className="gnb_depth3">
-                                        <li><a href="https://vr.gwefestival.co.kr/scene_93_en.html">드론코딩</a></li>
+                                        <li><a href="https://vr.gwefestival.co.kr/scene_93_en.html">드론비행체험</a></li>
                                         <li><a href="https://vr.gwefestival.co.kr/scene_94_en.html">갤러그게임</a></li>
                                         <li><a href="https://vr.gwefestival.co.kr/scene_95_en.html">레고위두</a></li>
                                         <li><a href="https://vr.gwefestival.co.kr/scene_96_en.html">뚜루뚜루코딩봇</a></li>
