@@ -270,7 +270,6 @@ const Home = () => {
                     </div>
                 </div>
             </main>
-            <EventBanner/>
         </>
     )
 }
